@@ -1,0 +1,158 @@
+{
+  "version": "mmv2010_jedc_v1",
+  "reference_plan": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/experiment_manifest.json",
+  "reference_plan_sha256": "261ae6d6290bac519f3181821422fca1e3638a38b0df0bb6ddfb141afd1f5ada",
+  "development_paths": [
+    {
+      "path": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_24.npz",
+      "sha256": "8652bbe416f88c7ed3a2b449a4f839c8aa6fea57002b4a61eed16915603134d1"
+    },
+    {
+      "path": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_25.npz",
+      "sha256": "5630f02602642fca628bf8a9274c0bda70afc6a8fc731090596f5e130868e9a8"
+    },
+    {
+      "path": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_26.npz",
+      "sha256": "34fa0a91e35971b0bb99fc2ef9e94eef75caa4ca05645d56f3fd04a3441a3457"
+    },
+    {
+      "path": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_27.npz",
+      "sha256": "5ab370b1939e23c5eebdd8a7ef99025c5b87a21a380da1815f196b34c4d83f35"
+    },
+    {
+      "path": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_28.npz",
+      "sha256": "1f983881a2d17e2199d9c74b76c7c8e7eb7290b4daded4d98b854c9d3e6b3c61"
+    },
+    {
+      "path": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_29.npz",
+      "sha256": "36102fe6e2b0a77440a027260d24eda0098531c2d5faac56dab202b385c1fb0a"
+    }
+  ],
+  "reference_base": "/root/rivermind-data/mu_functions_v2_main9_20260929",
+  "reference_configs": [
+    {
+      "phase": "main",
+      "label": "fullmu_deeponet",
+      "kind": "deeponet",
+      "seed": 9711,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_deeponet_s9711.json",
+      "sha256": "42d4f78ecce8562112e6b03bae77c792f0845b0e1befb8a969a703e595a3a781",
+      "parameters": 192257
+    },
+    {
+      "phase": "main",
+      "label": "fullmu_deeponet",
+      "kind": "deeponet",
+      "seed": 9712,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_deeponet_s9712.json",
+      "sha256": "d71ad67a56d66b021b136ac73eca2bff26587dd29c69996027f069d20fd4cf06",
+      "parameters": 192257
+    },
+    {
+      "phase": "main",
+      "label": "fullmu_deeponet",
+      "kind": "deeponet",
+      "seed": 9713,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_deeponet_s9713.json",
+      "sha256": "0c906f16bf12afac3f6d8dbee6753d1dc7a41d3686f55477579ebf67c8154797",
+      "parameters": 192257
+    }
+  ],
+  "reference_config": {
+    "status": "frozen_mu_functions_v2_equation_only",
+    "calibration_file": "data/jedc2010_calibration.json",
+    "train_data_file": "data/mu_functions_v2_mu971_main9_20260929_fix1/train.npz",
+    "valid_data_file": "data/mu_functions_v2_mu971_main9_20260929_fix1/dev.npz",
+    "seed": 9711,
+    "asset_points": 1401,
+    "asset_max": 500.0,
+    "hidden": 64,
+    "mlp_hidden": 64,
+    "basis": 32,
+    "policy_mode": "consumption_softplus",
+    "macro_features": "capital",
+    "transport": "atom_uniform_intervals_v1",
+    "steps": 100000,
+    "batch_size": 8,
+    "learning_rate": 2e-05,
+    "checkpoint_every": 5000,
+    "mass_weight": 0.5,
+    "high_asset_cutoff": 20.0,
+    "high_asset_multiplier": 4.0,
+    "device": "auto",
+    "n_train": 21600,
+    "n_valid": 5400,
+    "experiment_phase": "main"
+  },
+  "input_paths": {
+    "train": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/train.npz",
+    "dev": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/dev.npz",
+    "split": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/split_manifest.json",
+    "calibration": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/jedc2010_calibration.json",
+    "initial": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/jedc2010/initial_distribution.npz"
+  },
+  "input_sha256": {
+    "train": "3e8d2cddf5fe6594ab9c1543c2d4ef96103f9d42b5766efbbdd975d48e780bfd",
+    "dev": "34ceb14bedd06b62b08375e2ce25b602450780c21c35a2c0fc8cc2d6e7826cb5",
+    "split": "a317a293bb16f0955678b866b08e8174edfd7b10f67c983e1b38824e7a102cae",
+    "calibration": "0953a47f9844be1f719ab2e6f40fd7467b2dbe4f1470be2baf15ffb693ac7498",
+    "initial": "10cf5478ad94b75cccd542712f679870fb9276a61cc839e2b41c4143b4134fd5"
+  },
+  "source_sha256": {
+    "src/mmv2010_jedc.py": "0d67cdfdce49ce3721f9adeadf2fe578997bf552a1682ed2b17860803e923d29",
+    "src/mmv2010_protocol.py": "151509a2e1dd8ababfef7da87c60329d459af05a9bc78765309fe5d50cb72b24",
+    "src/mmv2010_bridge.py": "3dbfebd4e02633aa79a6d052bff212efe5a1a2b547f6d17e977ef98a5279e2a3",
+    "src/ks_model.py": "438110b4815652eba8b750854cd56d9a33bebbd093202ceece9049bdd8a12942",
+    "src/jedc_distribution_v1.py": "90dacb966e184261fb999ae2eed343e0d4bf3894e1e2885b3101b5942d3c69f4",
+    "src/mu_evaluation_v2.py": "c3e47050d4700cecc1ba9dc0b6452d79915e3dd7bdd6550d4fbd64fd632b7ec7",
+    "src/networks.py": "11d69cde941cefba233b378f1575b00b8d116658b343a1bbd28352497ddc2a58",
+    "src/networks_mu_v2.py": "7d0c992b868f6172db7418d8c4adf329ee90b67db0bacea8f439d10c0462cf6f",
+    "scripts/solve_mmv2010.py": "a586117daf0cd7de7b5d118acee6b721c201cb638aa554633bf7c9a7b2dd0e2f",
+    "scripts/evaluate_mmv2010.py": "f0ce8dcf96066e896d68f60713e540fe5a31c9741ec9320cbfa884e09a898d3d",
+    "scripts/summarize_mmv2010.py": "8fd7e3db446f66ec00f7eb16c9da1b4dd373a098148a2b36b46777649de24e5d",
+    "server/run_mmv2010.py": "f31f117f833d5c61662da581466bff2c2fc9c6739db72ad709a35ac70d0b9610",
+    "config/mmv2010_template.json": "b4b6e75ff7038272d242833cabd2964dea096abb19f85a4380c6b58d02208925",
+    "tests/test_mmv2010.py": "d493faa72c432c3785ebb9058e51e6b92e25aa061a85690781734bec5996a4e9",
+    "docs/mmv2010_author_source/provenance.json": "38d92e3585b1374f7847570ba0f0c4e5e37685f895e69868e9957e68c164f7ed",
+    "docs/mmv2010_author_source/MMV_JEDC_34_2010_original.zip": "d8afd7ec9d3dd8f1a5bbbd3ac899383aaba0aeb8df09b4e2c67197a5105d2e4d",
+    "docs/mmv2010_author_source/LICENSE_AGREEMENT.txt": "538fc47e9e4dba1f5f3d5ca29e5f04658394fb4f21aae97670df26da2e0a2e39",
+    "docs/MMV2010_JEDC_README.md": "69d2c0b1dcba9ce6fa35c17fda0ed784a9831f70c260a4954a0a118dbe4cdaa3",
+    "server/start_mmv2010.sh": "8422c2ec92f0aa79275d45a1b7ccf1e56accaad99897fd47b9cabd9cafc0e74b"
+  },
+  "configs": [
+    {
+      "profile": "matched",
+      "seed": 9711,
+      "path": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/config/mmv2010_mmv971_matched_review_20260930/matched_s9711.json",
+      "sha256": "daf7050e88bf17e53b7a8515a91e6e2f073f9d3d5dc2be47d0a96cf8e3112e0c"
+    },
+    {
+      "profile": "matched",
+      "seed": 9712,
+      "path": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/config/mmv2010_mmv971_matched_review_20260930/matched_s9712.json",
+      "sha256": "eeba33c4388150a79fff72e61a5fb67e9479548308bb9069f45a5f513b31f3db"
+    },
+    {
+      "profile": "matched",
+      "seed": 9713,
+      "path": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/config/mmv2010_mmv971_matched_review_20260930/matched_s9713.json",
+      "sha256": "936a3efce0cf570c082bfdef388bc4f05e40796c9557cd80e8fdc5d3838d148c"
+    },
+    {
+      "profile": "fine",
+      "seed": 9711,
+      "path": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/config/mmv2010_mmv971_matched_review_20260930/fine_s9711.json",
+      "sha256": "06cbeed578993987f77b658b54672d7e58f4f61012033a7c3f8d51a90a16e3c3"
+    },
+    {
+      "profile": "author_domain",
+      "seed": 9711,
+      "path": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/config/mmv2010_mmv971_matched_review_20260930/author_domain_s9711.json",
+      "sha256": "1378486fbb2a09e81f4a29f14829e8a52a4672fd99533fa7cfb3ad311ec8960f"
+    }
+  ],
+  "protocol_sha256": "3357ff2e6c261deb5a5e3fcb79e474ad970a9c0640424c9c4a11f5314d46fc2f",
+  "final_data_read": false,
+  "grid_points": 1401,
+  "status": "frozen_no_final_scores"
+}

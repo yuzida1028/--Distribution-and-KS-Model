@@ -1,0 +1,364 @@
+{
+  "version": "mu_functions_v2",
+  "status": "frozen_no_final_scores",
+  "data_directory": "data/mu_functions_v2_mu971_main9_20260929_fix1",
+  "fine_directory": "data/mu_functions_v2_mu971_main9_20260929_fix1_fine",
+  "configs": [
+    {
+      "phase": "main",
+      "label": "fullmu_deeponet",
+      "kind": "deeponet",
+      "seed": 9711,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_deeponet_s9711.json",
+      "sha256": "42d4f78ecce8562112e6b03bae77c792f0845b0e1befb8a969a703e595a3a781",
+      "parameters": 192257
+    },
+    {
+      "phase": "main",
+      "label": "fullmu_deeponet",
+      "kind": "deeponet",
+      "seed": 9712,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_deeponet_s9712.json",
+      "sha256": "d71ad67a56d66b021b136ac73eca2bff26587dd29c69996027f069d20fd4cf06",
+      "parameters": 192257
+    },
+    {
+      "phase": "main",
+      "label": "fullmu_deeponet",
+      "kind": "deeponet",
+      "seed": 9713,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_deeponet_s9713.json",
+      "sha256": "0c906f16bf12afac3f6d8dbee6753d1dc7a41d3686f55477579ebf67c8154797",
+      "parameters": 192257
+    },
+    {
+      "phase": "main",
+      "label": "fullmu_mlp",
+      "kind": "mlp",
+      "seed": 9711,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_mlp_s9711.json",
+      "sha256": "d1c770167fa29f28ff0cd8f06ed4daf766241c88f562b7ba8a70929d43d6e46a",
+      "parameters": 192760
+    },
+    {
+      "phase": "main",
+      "label": "fullmu_mlp",
+      "kind": "mlp",
+      "seed": 9712,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_mlp_s9712.json",
+      "sha256": "f9fddf11444bd99c1127868a4c3b5b314176daa2787269a54c078117b3d882bc",
+      "parameters": 192760
+    },
+    {
+      "phase": "main",
+      "label": "fullmu_mlp",
+      "kind": "mlp",
+      "seed": 9713,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_mlp_s9713.json",
+      "sha256": "c0e02f75d3a33a77bcbfeb3532e23db2bdc1f7bc65bd7cc91ab467127c661c5d",
+      "parameters": 192760
+    },
+    {
+      "phase": "main",
+      "label": "onlyK_mlp",
+      "kind": "mlp",
+      "seed": 9711,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_onlyK_mlp_s9711.json",
+      "sha256": "0f80fb192488e075d188ce9fb15971144c91b3877bec86399df9654afc5fd8ae",
+      "parameters": 191829
+    },
+    {
+      "phase": "main",
+      "label": "onlyK_mlp",
+      "kind": "mlp",
+      "seed": 9712,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_onlyK_mlp_s9712.json",
+      "sha256": "49090f02c23bf0a8fba09687a5fe7f25f910d7486e2111870fc66130669663cf",
+      "parameters": 191829
+    },
+    {
+      "phase": "main",
+      "label": "onlyK_mlp",
+      "kind": "mlp",
+      "seed": 9713,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_onlyK_mlp_s9713.json",
+      "sha256": "f924d065a2f3c7800ea3677433fe42968b01267a918ed0611edaca99926954c0",
+      "parameters": 191829
+    },
+    {
+      "phase": "fine",
+      "label": "fullmu_deeponet",
+      "kind": "deeponet",
+      "seed": 9711,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_fine_fullmu_deeponet_s9711.json",
+      "sha256": "c5a926b21ca3d3b3c58ea0576c07b95eeefd1c01b7e0c1e6d85ec309161e2f53",
+      "parameters": 371457
+    },
+    {
+      "phase": "fine",
+      "label": "fullmu_mlp",
+      "kind": "mlp",
+      "seed": 9711,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_fine_fullmu_mlp_s9711.json",
+      "sha256": "5bf67cb44740560afebcb67b8a89f351ca405a326f0b34e2643eb764b3b03d7f",
+      "parameters": 368876
+    },
+    {
+      "phase": "fine",
+      "label": "onlyK_mlp",
+      "kind": "mlp",
+      "seed": 9711,
+      "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_fine_onlyK_mlp_s9711.json",
+      "sha256": "7f9d88a6b30a0db054ef3f4bcb9584d9754f0d3305390e15e871c25b1b296a4b",
+      "parameters": 370866
+    }
+  ],
+  "capacities": [
+    {
+      "phase": "main",
+      "label": "fullmu_deeponet",
+      "parameters": 192257,
+      "width": 64,
+      "basis": 32,
+      "grid_points": 1401,
+      "relative_capacity_difference": 0.0,
+      "macro_inputs": 2805,
+      "micro_inputs": 2
+    },
+    {
+      "phase": "main",
+      "label": "fullmu_mlp",
+      "parameters": 192760,
+      "width": 67,
+      "basis": 32,
+      "grid_points": 1401,
+      "relative_capacity_difference": 0.002616289653952782,
+      "macro_inputs": 2805,
+      "micro_inputs": 2
+    },
+    {
+      "phase": "main",
+      "label": "onlyK_mlp",
+      "parameters": 191829,
+      "width": 434,
+      "basis": 32,
+      "grid_points": 1401,
+      "relative_capacity_difference": -0.0022261868228465025,
+      "macro_inputs": 3,
+      "micro_inputs": 2
+    },
+    {
+      "phase": "fine",
+      "label": "fullmu_deeponet",
+      "parameters": 371457,
+      "width": 64,
+      "basis": 32,
+      "grid_points": 2801,
+      "relative_capacity_difference": 0.0,
+      "macro_inputs": 5605,
+      "micro_inputs": 2
+    },
+    {
+      "phase": "fine",
+      "label": "fullmu_mlp",
+      "parameters": 368876,
+      "width": 65,
+      "basis": 32,
+      "grid_points": 2801,
+      "relative_capacity_difference": -0.006948314340556242,
+      "macro_inputs": 5605,
+      "micro_inputs": 2
+    },
+    {
+      "phase": "fine",
+      "label": "onlyK_mlp",
+      "parameters": 370866,
+      "width": 605,
+      "basis": 32,
+      "grid_points": 2801,
+      "relative_capacity_difference": -0.001591032071006873,
+      "macro_inputs": 3,
+      "micro_inputs": 2
+    }
+  ],
+  "evaluation_protocol_sha256": "2b854fe81c32d73ea461b063580b7b8a62306579674b96938b2f838539d23025",
+  "sha256": {
+    "src/ks_model.py": "438110b4815652eba8b750854cd56d9a33bebbd093202ceece9049bdd8a12942",
+    "src/networks.py": "11d69cde941cefba233b378f1575b00b8d116658b343a1bbd28352497ddc2a58",
+    "src/networks_mu_v2.py": "7d0c992b868f6172db7418d8c4adf329ee90b67db0bacea8f439d10c0462cf6f",
+    "src/jedc_distribution_v1.py": "90dacb966e184261fb999ae2eed343e0d4bf3894e1e2885b3101b5942d3c69f4",
+    "src/neural_state_source_v1.py": "e009f378cbe875c42747bc381b0020a7303f55d63ac631d65dd9b4ff874641a0",
+    "src/train_jedc_mu_v1.py": "c98ad01aefcea4025f0c98f6a56dca04604e2cc8512b81701c740a52097abfd6",
+    "src/mu_evaluation_v2.py": "c3e47050d4700cecc1ba9dc0b6452d79915e3dd7bdd6550d4fbd64fd632b7ec7",
+    "scripts/build_jedc_mu_v1.py": "021b671268d34bb7cfe91411ee6c9099e805987539e6032e4b0acf54eea4bebd",
+    "scripts/build_mu_functions_v2.py": "29852f2f4e77cbcaf126a9f6559b151eadbfa47ea0ab61f70db8e3a6b21d435f",
+    "scripts/audit_mu_functions_v2.py": "790bb12b3f956c7508c7fb0d4a05c597b01a2e6045ff9a9a6cae61a28474755b",
+    "scripts/freeze_mu_functions_v2.py": "774f92409d0bdfe94b8c04f719bcbcbe170d6f0a7116599f316910e7328b8afb",
+    "scripts/evaluate_mu_functions_v2.py": "d0cb370a8008c03a82f84254a3b45b1fb0fd13bbf12d91ce3bac66ec017b9481",
+    "scripts/finalize_mu_functions_v2.py": "ca9dd6b312eb5904776f36cfd9aea8ffd7ae47ab6db04b5ac41ad3ec0732bfcd",
+    "scripts/summarize_mu_functions_v2.py": "b9a7cb593991da8a1afb7eaf69dd2fec0aeda91a2b39a89b8cabce3a5280c04d",
+    "scripts/plot_mu_functions_v2_data.py": "9f09e68201f520f6511b5a51fa7279d7a4471de13be3471dcf125353b5ed542d",
+    "scripts/build_sameK_pressure_v1.py": "8de42324c85ab5410ae5b85b505a4d452a35fd0e0aa12b063979032e12086d35",
+    "server/run_jedc_mu_v1.py": "e810cb82fa998a310baa366053040659aee4582f897b30ac927d50c7cdb3f9b6",
+    "server/prepare_mu_functions_v2.py": "7ea58df71ee17ccfcebae4fafa89d954c7bc7a519108ad6cf113e93c6c490ac3",
+    "config/mu_functions_v2_generation.json": "cd212ab758e4dd224aae2b0d514445836cd98262418c966edfd9ae7d86de6bf6",
+    "data/jedc2010_calibration.json": "0953a47f9844be1f719ab2e6f40fd7467b2dbe4f1470be2baf15ffb693ac7498",
+    "data/jedc2010/initial_distribution.npz": "10cf5478ad94b75cccd542712f679870fb9276a61cc839e2b41c4143b4134fd5",
+    "runs/jedc_mu_momentfit_20260929/report.json": "24c0c7f183cc45ae9a235b2d9ff536a8fae3998b0aac455b75f6d6dbd579b13b",
+    "runs/mu_functions_v2_audit_mu971_main9_20260929_fix1/audit.json": "00206887a28b2da7bdd19917f5d5f428d3c27e7b5a6b5d8fdd9f740730c9bd4c",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train.npz": "3e8d2cddf5fe6594ab9c1543c2d4ef96103f9d42b5766efbbdd975d48e780bfd",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/dev.npz": "34ceb14bedd06b62b08375e2ce25b602450780c21c35a2c0fc8cc2d6e7826cb5",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1_fine/train.npz": "31dfdad768619290e2e32c8fbb2cfc4ae1fde6bf59ff3b6b1c814eea9b84e85f",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1_fine/dev.npz": "741ace75070ae33d15fc4e9c9c785d43bc42479ad94758ac25bf2d02b768b092",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/state_source_manifest.json": "bec397e04133f0cbb35c61979cdd36a64a3360ef00d03eb2ac8a82e1d696bcce",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/split_manifest.json": "a317a293bb16f0955678b866b08e8174edfd7b10f67c983e1b38824e7a102cae",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_00.npz": "28e989f3ff9a93c097c4bd95759619fe53b5209db42d85fcef7c47f1f9759595",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_01.npz": "ea6c9fcc3b08fc1569e83f69814ab310168c568b80e95f28cb2f9a3e737c1b3f",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_02.npz": "9d6c976189c2e36d247db8b2d2210327c4f2b0e4f4955f91ac2acc499286971d",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_03.npz": "267373c94777ee1326c2af0894ff055d63061e76f7884afb7f0252197527712a",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_04.npz": "c378b67a3c9b6014c1a0785a630f2fb724780f729c453afda66d49b1d0fc8549",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_05.npz": "bd4b1408cd0176a62c69acfe8c0c8227ff57688383427017d9bae642abea4abc",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_06.npz": "8af9807c060952a5236e97df9d24cdc0b182e5cec404634982d996b974fa2a84",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_07.npz": "02e2e6386a7466ec81131d13f48e9feb24f2eaa5e8a7e40536fd6a081df9b718",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_08.npz": "511f36c3f8bf60f8097d8453a9325e4883cdaf6ef842fe9419c2c3f23a575f33",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_09.npz": "4d376de6db85e9319f2a2a62ddf797d6f011b5e3e66d2fbbff2d1542271425eb",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_10.npz": "25c900cb061ab19f50ef87277bde38ca053055a58fdd036e9f79259735cea44b",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_11.npz": "0a79d8904f790e8b9aa53a4e6ddcca17c300d1500dc200f016e6f398e621e33a",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_12.npz": "6dae7ed1f72d024c6555e258887f76b86109cb187fffb058b950de36c4bab298",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_13.npz": "49f6bad227f8768590505e5fe6e835b678c45be68e19c62105f30f65a8710bf7",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_14.npz": "3a1f75dda238e26b756ec4a6d2759558962e406cbf0ffbc0591ed6f1a7429210",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_15.npz": "b3a20848a1c6e0850234a45e4da1f704db228ce02df3063ceab18425039554bc",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_16.npz": "0e6048612f7b0531ff7ad11bdf091b9db98e095a849663ed01042f7999a3f155",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_17.npz": "91bdc0f124a8dc7902ce3bd6f92d6bcab2390676c88847018267828e70eb7234",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_18.npz": "d18d15eb52b7413430f889d8add3dde4c681ac34a98c4a274d3775a5f0be9926",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_19.npz": "c62450fd7f80f96b5d5a8673e065f2031366c52196d2b06aaf9e058f66ae2e1f",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_20.npz": "13aef5529f3a6a8b11104aa0992e1b516d5d259799065ff4968e4286eadfe399",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_21.npz": "4b1f48ec3d4338da5c75a8b94b9d1e4c1d084a3db9690f547cab8b2bd7a7be07",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_22.npz": "69cf7585b87e48e9b7785eddf96e1eb67fd2fd199f498aad430fd56e5005c5ee",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/train_paths/path_23.npz": "749b645d40e380867dca0c960b31d91c544fac3855c785ff20162e38d225a5fd",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_24.npz": "8652bbe416f88c7ed3a2b449a4f839c8aa6fea57002b4a61eed16915603134d1",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_25.npz": "5630f02602642fca628bf8a9274c0bda70afc6a8fc731090596f5e130868e9a8",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_26.npz": "34fa0a91e35971b0bb99fc2ef9e94eef75caa4ca05645d56f3fd04a3441a3457",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_27.npz": "5ab370b1939e23c5eebdd8a7ef99025c5b87a21a380da1815f196b34c4d83f35",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_28.npz": "1f983881a2d17e2199d9c74b76c7c8e7eb7290b4daded4d98b854c9d3e6b3c61",
+    "data/mu_functions_v2_mu971_main9_20260929_fix1/dev_paths/path_29.npz": "36102fe6e2b0a77440a027260d24eda0098531c2d5faac56dab202b385c1fb0a"
+  },
+  "sealed_sha256": {
+    "sealed/test.npz": "2b1b2103017ec2a1e040ff781b33e02b5e0936376deaf548eb932c22040ce98c",
+    "sealed/shape.npz": "a31f8e5877e81c02f89037b40ebeb55680fff1332a8fab6c0f978059b334c9f6"
+  },
+  "sealed_paths": [
+    {
+      "path_id": 30,
+      "split": "test",
+      "file": "sealed/path_30.npz",
+      "sha256": "617633c3c22f4a847b9bb8a8974a4e0488b600a3d0b006e477d6677f46d1bd96",
+      "spawn_key": [
+        30
+      ]
+    },
+    {
+      "path_id": 31,
+      "split": "test",
+      "file": "sealed/path_31.npz",
+      "sha256": "3ee1c09913320943b966fb1b0b1edfaa178d6c28179255139d6e2d23a5dac9ed",
+      "spawn_key": [
+        31
+      ]
+    },
+    {
+      "path_id": 32,
+      "split": "test",
+      "file": "sealed/path_32.npz",
+      "sha256": "4e82337e37e90c86e3b2c96f3d5cfe5e00dce5f290a5c3a62bd4edfc06e45b47",
+      "spawn_key": [
+        32
+      ]
+    },
+    {
+      "path_id": 33,
+      "split": "test",
+      "file": "sealed/path_33.npz",
+      "sha256": "79f0dfbc0ba0e662699f579d68f7ec2f7a83644363f5ee140539a7c45669b4e6",
+      "spawn_key": [
+        33
+      ]
+    },
+    {
+      "path_id": 34,
+      "split": "test",
+      "file": "sealed/path_34.npz",
+      "sha256": "9a55bcaa1b76ca5538dc357349bbcde3f27b1c2b7b2b000f8a17c6588ec97b22",
+      "spawn_key": [
+        34
+      ]
+    },
+    {
+      "path_id": 35,
+      "split": "test",
+      "file": "sealed/path_35.npz",
+      "sha256": "184310c8b73621075f873808d01c868c7e84de62c6f41997193fd49bbf90fe42",
+      "spawn_key": [
+        35
+      ]
+    },
+    {
+      "path_id": 36,
+      "split": "test",
+      "file": "sealed/path_36.npz",
+      "sha256": "0ace4c713f1c830aad5a99d77eb91212f80b46d4f8db845102e29cdcb5dbad93",
+      "spawn_key": [
+        36
+      ]
+    },
+    {
+      "path_id": 37,
+      "split": "test",
+      "file": "sealed/path_37.npz",
+      "sha256": "bf2bfd84e6e7b7ff4b1fb7064fa462ac65960fe3b71856918b56cdbce17cc901",
+      "spawn_key": [
+        37
+      ]
+    },
+    {
+      "path_id": 38,
+      "split": "test",
+      "file": "sealed/path_38.npz",
+      "sha256": "53b29a2791afff42e6d28b9d8fa4314580922d25e0da24d1cbbc89f16632ddfe",
+      "spawn_key": [
+        38
+      ]
+    },
+    {
+      "path_id": 39,
+      "split": "test",
+      "file": "sealed/path_39.npz",
+      "sha256": "f14b4bea58c7b1204698faa68c1696a204e04cff83a85bbbf027f26380953f4a",
+      "spawn_key": [
+        39
+      ]
+    },
+    {
+      "path_id": 40,
+      "split": "test",
+      "file": "sealed/path_40.npz",
+      "sha256": "2b9f247ae52088f82d45ca21248baca191ab740d8d87289430f48313b143ce7f",
+      "spawn_key": [
+        40
+      ]
+    },
+    {
+      "path_id": 41,
+      "split": "test",
+      "file": "sealed/path_41.npz",
+      "sha256": "2cb42e662e668cc55f0de9c19add53454fac50f8e1fc912d63fa781092031ddd",
+      "spawn_key": [
+        41
+      ]
+    }
+  ],
+  "young_required": false,
+  "policy_labels_used": false,
+  "test_scores_read": false,
+  "expected_device": "prefer RTX 4080 SUPER; actual hardware and timing scope recorded"
+}

@@ -1,0 +1,1040 @@
+{
+  "version": "mu_functions_v2",
+  "formal": true,
+  "partition_unit": "independent_function_generation_group",
+  "group_count": 42,
+  "parents_per_group": 300,
+  "root_seed": 202609299710,
+  "shock_seed": 202609299720,
+  "test_score_access": false,
+  "groups": [
+    {
+      "group_id": 0,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        0,
+        0
+      ],
+      "perturb_spawn_key": [
+        0,
+        1
+      ],
+      "file": "train_groups/group_00.npz",
+      "sha256": "158f001b2027bd2ea265c4c5b50f9964025f5a8748b5f1ece7b64a6223ff2433"
+    },
+    {
+      "group_id": 1,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        1,
+        0
+      ],
+      "perturb_spawn_key": [
+        1,
+        1
+      ],
+      "file": "train_groups/group_01.npz",
+      "sha256": "13787ac1ad047e4d1d8df849db232ff1df5fa1a97b2b7c76ec32d18b246f7105"
+    },
+    {
+      "group_id": 2,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        2,
+        0
+      ],
+      "perturb_spawn_key": [
+        2,
+        1
+      ],
+      "file": "train_groups/group_02.npz",
+      "sha256": "12c6f59dfe05fee8856cf51b44d1c5205c56bf06aa521d0035de618a15a02da7"
+    },
+    {
+      "group_id": 3,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        3,
+        0
+      ],
+      "perturb_spawn_key": [
+        3,
+        1
+      ],
+      "file": "train_groups/group_03.npz",
+      "sha256": "934902108fa48f7d68bb1a2d753ca3d1615571b62ce766af6cd521a134f7d421"
+    },
+    {
+      "group_id": 4,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        4,
+        0
+      ],
+      "perturb_spawn_key": [
+        4,
+        1
+      ],
+      "file": "train_groups/group_04.npz",
+      "sha256": "fd3f10bb02db15185a16e1b5e303295c7a279ca14774bc1fa08fa9a6f220e486"
+    },
+    {
+      "group_id": 5,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        5,
+        0
+      ],
+      "perturb_spawn_key": [
+        5,
+        1
+      ],
+      "file": "train_groups/group_05.npz",
+      "sha256": "5ca1516bce30ff8c1d057e0b8aae17dc916e4c9c7c27ef2837e5b0eab7002443"
+    },
+    {
+      "group_id": 6,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        6,
+        0
+      ],
+      "perturb_spawn_key": [
+        6,
+        1
+      ],
+      "file": "train_groups/group_06.npz",
+      "sha256": "fca95edf068124c5637f13cd889a89e7f072f7edda1c2616a73272a3117b3e4f"
+    },
+    {
+      "group_id": 7,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        7,
+        0
+      ],
+      "perturb_spawn_key": [
+        7,
+        1
+      ],
+      "file": "train_groups/group_07.npz",
+      "sha256": "22df4c72b5ca8d821d3c6d4d9c8f001ef1b4e8ec7dec4583f0f7b3146b8692a6"
+    },
+    {
+      "group_id": 8,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        8,
+        0
+      ],
+      "perturb_spawn_key": [
+        8,
+        1
+      ],
+      "file": "train_groups/group_08.npz",
+      "sha256": "89fed47e2d3d4dd2687932854ef8efe7ea02405a5319e001123f8fb0cd3ee36f"
+    },
+    {
+      "group_id": 9,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        9,
+        0
+      ],
+      "perturb_spawn_key": [
+        9,
+        1
+      ],
+      "file": "train_groups/group_09.npz",
+      "sha256": "d2f25ebc60fda5e2f73f8095df16c7df51604e5adf0f2e85b898a26f35f6d67e"
+    },
+    {
+      "group_id": 10,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        10,
+        0
+      ],
+      "perturb_spawn_key": [
+        10,
+        1
+      ],
+      "file": "train_groups/group_10.npz",
+      "sha256": "229aaf45958857a6b4ae19e182e89f9032dbc4bc66db345ab47c68f1a32904d2"
+    },
+    {
+      "group_id": 11,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        11,
+        0
+      ],
+      "perturb_spawn_key": [
+        11,
+        1
+      ],
+      "file": "train_groups/group_11.npz",
+      "sha256": "4a3d74211f0019ecdd4a658b2a1c7c00f63848fe97115dfdf17846ce9eb485a6"
+    },
+    {
+      "group_id": 12,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        12,
+        0
+      ],
+      "perturb_spawn_key": [
+        12,
+        1
+      ],
+      "file": "train_groups/group_12.npz",
+      "sha256": "f8eb28bc5aa7e28b48647c29f0705991b28339778592cd33ce415b4b463f1e7b"
+    },
+    {
+      "group_id": 13,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        13,
+        0
+      ],
+      "perturb_spawn_key": [
+        13,
+        1
+      ],
+      "file": "train_groups/group_13.npz",
+      "sha256": "963a6eaea2fd33159cd4bc530dc80a7dd4655f9a5b9ee4a851e352409d117419"
+    },
+    {
+      "group_id": 14,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        14,
+        0
+      ],
+      "perturb_spawn_key": [
+        14,
+        1
+      ],
+      "file": "train_groups/group_14.npz",
+      "sha256": "c8553c5857b8c45ba8142e8800387f39f37b5c8f8be904fb57c0ec24e102c97c"
+    },
+    {
+      "group_id": 15,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        15,
+        0
+      ],
+      "perturb_spawn_key": [
+        15,
+        1
+      ],
+      "file": "train_groups/group_15.npz",
+      "sha256": "42d8b79ca412377d04fcd3afd923f16d96acc98e741c48484292f39cb671a9ea"
+    },
+    {
+      "group_id": 16,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        16,
+        0
+      ],
+      "perturb_spawn_key": [
+        16,
+        1
+      ],
+      "file": "train_groups/group_16.npz",
+      "sha256": "99b2aa9ab6fd8b2ad53384a8b464f0460b653ffaa1ec6ebefb4bcac7c7698441"
+    },
+    {
+      "group_id": 17,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        17,
+        0
+      ],
+      "perturb_spawn_key": [
+        17,
+        1
+      ],
+      "file": "train_groups/group_17.npz",
+      "sha256": "39c8b8358c028fba882f940aaf262fa07cf6f422f60fd6c7feae79ae1fcf5885"
+    },
+    {
+      "group_id": 18,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        18,
+        0
+      ],
+      "perturb_spawn_key": [
+        18,
+        1
+      ],
+      "file": "train_groups/group_18.npz",
+      "sha256": "41cdd438201e4a631734e9b0c10e1799086f3f1f0aff656d00f18e4a13567a2f"
+    },
+    {
+      "group_id": 19,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        19,
+        0
+      ],
+      "perturb_spawn_key": [
+        19,
+        1
+      ],
+      "file": "train_groups/group_19.npz",
+      "sha256": "5444d30bc808f44d5c0cf63f9085906e577f029dbdc54cb5ec75333d4034e5c9"
+    },
+    {
+      "group_id": 20,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        20,
+        0
+      ],
+      "perturb_spawn_key": [
+        20,
+        1
+      ],
+      "file": "train_groups/group_20.npz",
+      "sha256": "854c1726610bc6449dfb38975c37c1b8444ab5678e6db4493b608fe29f42370e"
+    },
+    {
+      "group_id": 21,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        21,
+        0
+      ],
+      "perturb_spawn_key": [
+        21,
+        1
+      ],
+      "file": "train_groups/group_21.npz",
+      "sha256": "5b509b3e256a6ceb51da7dc65711d354da95b7e81464fe815848b322918445aa"
+    },
+    {
+      "group_id": 22,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        22,
+        0
+      ],
+      "perturb_spawn_key": [
+        22,
+        1
+      ],
+      "file": "train_groups/group_22.npz",
+      "sha256": "4b6d52c172f319246a3c172c02e22bae72d222985037215f45bc5179b2bd7e8b"
+    },
+    {
+      "group_id": 23,
+      "split": "train",
+      "states": 300,
+      "draw_spawn_key": [
+        23,
+        0
+      ],
+      "perturb_spawn_key": [
+        23,
+        1
+      ],
+      "file": "train_groups/group_23.npz",
+      "sha256": "fbdf5ca63edd16da5a4390a9718f02db71a0f6bc1a60fb5d010183f121335477"
+    },
+    {
+      "group_id": 24,
+      "split": "dev",
+      "states": 300,
+      "draw_spawn_key": [
+        24,
+        0
+      ],
+      "perturb_spawn_key": [
+        24,
+        1
+      ],
+      "file": "dev_groups/group_24.npz",
+      "sha256": "56aa3a3519c74ad571c59735d25a467b8295b2af385f869cefd694533217bb01"
+    },
+    {
+      "group_id": 25,
+      "split": "dev",
+      "states": 300,
+      "draw_spawn_key": [
+        25,
+        0
+      ],
+      "perturb_spawn_key": [
+        25,
+        1
+      ],
+      "file": "dev_groups/group_25.npz",
+      "sha256": "9b60bd6f1010fc1eb2aaeb3a299a8c8c2fd64d90e761f4686c2371cfb710f90f"
+    },
+    {
+      "group_id": 26,
+      "split": "dev",
+      "states": 300,
+      "draw_spawn_key": [
+        26,
+        0
+      ],
+      "perturb_spawn_key": [
+        26,
+        1
+      ],
+      "file": "dev_groups/group_26.npz",
+      "sha256": "af63bd60a58ac79c29cbb49a43fa40363ed4cbbb6f1e1dfe74ad5e13b91a94d8"
+    },
+    {
+      "group_id": 27,
+      "split": "dev",
+      "states": 300,
+      "draw_spawn_key": [
+        27,
+        0
+      ],
+      "perturb_spawn_key": [
+        27,
+        1
+      ],
+      "file": "dev_groups/group_27.npz",
+      "sha256": "72ff613b71989a9fbf1d4c17f8fb099923c85d71279742dee840c906367d116d"
+    },
+    {
+      "group_id": 28,
+      "split": "dev",
+      "states": 300,
+      "draw_spawn_key": [
+        28,
+        0
+      ],
+      "perturb_spawn_key": [
+        28,
+        1
+      ],
+      "file": "dev_groups/group_28.npz",
+      "sha256": "002073d9b75a09a34dd4989a2e32a54bcc9910b7a95b5a48f5a0f543a23d7638"
+    },
+    {
+      "group_id": 29,
+      "split": "dev",
+      "states": 300,
+      "draw_spawn_key": [
+        29,
+        0
+      ],
+      "perturb_spawn_key": [
+        29,
+        1
+      ],
+      "file": "dev_groups/group_29.npz",
+      "sha256": "cf791103ede3adda80f007c11d70130271ad74bdad23a2e69e57061bf0b164f7"
+    },
+    {
+      "group_id": 30,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        30,
+        0
+      ],
+      "perturb_spawn_key": [
+        30,
+        1
+      ],
+      "file": "sealed/group_30.npz",
+      "sha256": "f404e86abd0063c36bfb2ba19180c893229de1e4f5f2d47f3ebae661ba21d934"
+    },
+    {
+      "group_id": 31,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        31,
+        0
+      ],
+      "perturb_spawn_key": [
+        31,
+        1
+      ],
+      "file": "sealed/group_31.npz",
+      "sha256": "285b5f8d77acaa7a99fd2c02e8d8131ee75de0cd15f1655869361c6b8072ed6f"
+    },
+    {
+      "group_id": 32,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        32,
+        0
+      ],
+      "perturb_spawn_key": [
+        32,
+        1
+      ],
+      "file": "sealed/group_32.npz",
+      "sha256": "d04e39380d44a35a546455a2b25b2bbd18859bbdc994ea8b9537efd385b3593c"
+    },
+    {
+      "group_id": 33,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        33,
+        0
+      ],
+      "perturb_spawn_key": [
+        33,
+        1
+      ],
+      "file": "sealed/group_33.npz",
+      "sha256": "7eec920e76b946feafa331189e4c65f8add545fafcc2d4117568e2cd282dc855"
+    },
+    {
+      "group_id": 34,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        34,
+        0
+      ],
+      "perturb_spawn_key": [
+        34,
+        1
+      ],
+      "file": "sealed/group_34.npz",
+      "sha256": "9495629e052810581e5680c3dfbdee1acdf2fd229ba10bdcf931c55d5cb6e66d"
+    },
+    {
+      "group_id": 35,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        35,
+        0
+      ],
+      "perturb_spawn_key": [
+        35,
+        1
+      ],
+      "file": "sealed/group_35.npz",
+      "sha256": "5c2a34c935bdf8cd00bf882edc9d937673dce3ccd03de3d481ee77cd35f769c3"
+    },
+    {
+      "group_id": 36,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        36,
+        0
+      ],
+      "perturb_spawn_key": [
+        36,
+        1
+      ],
+      "file": "sealed/group_36.npz",
+      "sha256": "061fbad9c0572eb6863392cd438c28e21f819d5adb2af5ee3ac0bad76ef7235c"
+    },
+    {
+      "group_id": 37,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        37,
+        0
+      ],
+      "perturb_spawn_key": [
+        37,
+        1
+      ],
+      "file": "sealed/group_37.npz",
+      "sha256": "43d5810e08959e0c82b4fa5e0b0a6119bcc3861a14842bea16d6889ca3a31157"
+    },
+    {
+      "group_id": 38,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        38,
+        0
+      ],
+      "perturb_spawn_key": [
+        38,
+        1
+      ],
+      "file": "sealed/group_38.npz",
+      "sha256": "0f14967b601594e3db09ad43542d89626a1be846f98d4c3230bd024f4802820e"
+    },
+    {
+      "group_id": 39,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        39,
+        0
+      ],
+      "perturb_spawn_key": [
+        39,
+        1
+      ],
+      "file": "sealed/group_39.npz",
+      "sha256": "e83780bbaddacbcf6890c477c1bc867486100a7f9f251504fa01dd47e4f60c5d"
+    },
+    {
+      "group_id": 40,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        40,
+        0
+      ],
+      "perturb_spawn_key": [
+        40,
+        1
+      ],
+      "file": "sealed/group_40.npz",
+      "sha256": "e9f6c5baa819250ba923007fd83d6019c0feb6d4124ba4b4cdfc6f3f1c372da1"
+    },
+    {
+      "group_id": 41,
+      "split": "test",
+      "states": 300,
+      "draw_spawn_key": [
+        41,
+        0
+      ],
+      "perturb_spawn_key": [
+        41,
+        1
+      ],
+      "file": "sealed/group_41.npz",
+      "sha256": "fa06e4fe481492f38fc5b32bd7bc6e2339514c2b061c092f1552f2cb81522259"
+    }
+  ],
+  "paths": [
+    {
+      "path_id": 0,
+      "split": "train",
+      "file": "train_paths/path_00.npz",
+      "sha256": "28e989f3ff9a93c097c4bd95759619fe53b5209db42d85fcef7c47f1f9759595",
+      "spawn_key": [
+        0
+      ]
+    },
+    {
+      "path_id": 1,
+      "split": "train",
+      "file": "train_paths/path_01.npz",
+      "sha256": "ea6c9fcc3b08fc1569e83f69814ab310168c568b80e95f28cb2f9a3e737c1b3f",
+      "spawn_key": [
+        1
+      ]
+    },
+    {
+      "path_id": 2,
+      "split": "train",
+      "file": "train_paths/path_02.npz",
+      "sha256": "9d6c976189c2e36d247db8b2d2210327c4f2b0e4f4955f91ac2acc499286971d",
+      "spawn_key": [
+        2
+      ]
+    },
+    {
+      "path_id": 3,
+      "split": "train",
+      "file": "train_paths/path_03.npz",
+      "sha256": "267373c94777ee1326c2af0894ff055d63061e76f7884afb7f0252197527712a",
+      "spawn_key": [
+        3
+      ]
+    },
+    {
+      "path_id": 4,
+      "split": "train",
+      "file": "train_paths/path_04.npz",
+      "sha256": "c378b67a3c9b6014c1a0785a630f2fb724780f729c453afda66d49b1d0fc8549",
+      "spawn_key": [
+        4
+      ]
+    },
+    {
+      "path_id": 5,
+      "split": "train",
+      "file": "train_paths/path_05.npz",
+      "sha256": "bd4b1408cd0176a62c69acfe8c0c8227ff57688383427017d9bae642abea4abc",
+      "spawn_key": [
+        5
+      ]
+    },
+    {
+      "path_id": 6,
+      "split": "train",
+      "file": "train_paths/path_06.npz",
+      "sha256": "8af9807c060952a5236e97df9d24cdc0b182e5cec404634982d996b974fa2a84",
+      "spawn_key": [
+        6
+      ]
+    },
+    {
+      "path_id": 7,
+      "split": "train",
+      "file": "train_paths/path_07.npz",
+      "sha256": "02e2e6386a7466ec81131d13f48e9feb24f2eaa5e8a7e40536fd6a081df9b718",
+      "spawn_key": [
+        7
+      ]
+    },
+    {
+      "path_id": 8,
+      "split": "train",
+      "file": "train_paths/path_08.npz",
+      "sha256": "511f36c3f8bf60f8097d8453a9325e4883cdaf6ef842fe9419c2c3f23a575f33",
+      "spawn_key": [
+        8
+      ]
+    },
+    {
+      "path_id": 9,
+      "split": "train",
+      "file": "train_paths/path_09.npz",
+      "sha256": "4d376de6db85e9319f2a2a62ddf797d6f011b5e3e66d2fbbff2d1542271425eb",
+      "spawn_key": [
+        9
+      ]
+    },
+    {
+      "path_id": 10,
+      "split": "train",
+      "file": "train_paths/path_10.npz",
+      "sha256": "25c900cb061ab19f50ef87277bde38ca053055a58fdd036e9f79259735cea44b",
+      "spawn_key": [
+        10
+      ]
+    },
+    {
+      "path_id": 11,
+      "split": "train",
+      "file": "train_paths/path_11.npz",
+      "sha256": "0a79d8904f790e8b9aa53a4e6ddcca17c300d1500dc200f016e6f398e621e33a",
+      "spawn_key": [
+        11
+      ]
+    },
+    {
+      "path_id": 12,
+      "split": "train",
+      "file": "train_paths/path_12.npz",
+      "sha256": "6dae7ed1f72d024c6555e258887f76b86109cb187fffb058b950de36c4bab298",
+      "spawn_key": [
+        12
+      ]
+    },
+    {
+      "path_id": 13,
+      "split": "train",
+      "file": "train_paths/path_13.npz",
+      "sha256": "49f6bad227f8768590505e5fe6e835b678c45be68e19c62105f30f65a8710bf7",
+      "spawn_key": [
+        13
+      ]
+    },
+    {
+      "path_id": 14,
+      "split": "train",
+      "file": "train_paths/path_14.npz",
+      "sha256": "3a1f75dda238e26b756ec4a6d2759558962e406cbf0ffbc0591ed6f1a7429210",
+      "spawn_key": [
+        14
+      ]
+    },
+    {
+      "path_id": 15,
+      "split": "train",
+      "file": "train_paths/path_15.npz",
+      "sha256": "b3a20848a1c6e0850234a45e4da1f704db228ce02df3063ceab18425039554bc",
+      "spawn_key": [
+        15
+      ]
+    },
+    {
+      "path_id": 16,
+      "split": "train",
+      "file": "train_paths/path_16.npz",
+      "sha256": "0e6048612f7b0531ff7ad11bdf091b9db98e095a849663ed01042f7999a3f155",
+      "spawn_key": [
+        16
+      ]
+    },
+    {
+      "path_id": 17,
+      "split": "train",
+      "file": "train_paths/path_17.npz",
+      "sha256": "91bdc0f124a8dc7902ce3bd6f92d6bcab2390676c88847018267828e70eb7234",
+      "spawn_key": [
+        17
+      ]
+    },
+    {
+      "path_id": 18,
+      "split": "train",
+      "file": "train_paths/path_18.npz",
+      "sha256": "d18d15eb52b7413430f889d8add3dde4c681ac34a98c4a274d3775a5f0be9926",
+      "spawn_key": [
+        18
+      ]
+    },
+    {
+      "path_id": 19,
+      "split": "train",
+      "file": "train_paths/path_19.npz",
+      "sha256": "c62450fd7f80f96b5d5a8673e065f2031366c52196d2b06aaf9e058f66ae2e1f",
+      "spawn_key": [
+        19
+      ]
+    },
+    {
+      "path_id": 20,
+      "split": "train",
+      "file": "train_paths/path_20.npz",
+      "sha256": "13aef5529f3a6a8b11104aa0992e1b516d5d259799065ff4968e4286eadfe399",
+      "spawn_key": [
+        20
+      ]
+    },
+    {
+      "path_id": 21,
+      "split": "train",
+      "file": "train_paths/path_21.npz",
+      "sha256": "4b1f48ec3d4338da5c75a8b94b9d1e4c1d084a3db9690f547cab8b2bd7a7be07",
+      "spawn_key": [
+        21
+      ]
+    },
+    {
+      "path_id": 22,
+      "split": "train",
+      "file": "train_paths/path_22.npz",
+      "sha256": "69cf7585b87e48e9b7785eddf96e1eb67fd2fd199f498aad430fd56e5005c5ee",
+      "spawn_key": [
+        22
+      ]
+    },
+    {
+      "path_id": 23,
+      "split": "train",
+      "file": "train_paths/path_23.npz",
+      "sha256": "749b645d40e380867dca0c960b31d91c544fac3855c785ff20162e38d225a5fd",
+      "spawn_key": [
+        23
+      ]
+    },
+    {
+      "path_id": 24,
+      "split": "dev",
+      "file": "dev_paths/path_24.npz",
+      "sha256": "8652bbe416f88c7ed3a2b449a4f839c8aa6fea57002b4a61eed16915603134d1",
+      "spawn_key": [
+        24
+      ]
+    },
+    {
+      "path_id": 25,
+      "split": "dev",
+      "file": "dev_paths/path_25.npz",
+      "sha256": "5630f02602642fca628bf8a9274c0bda70afc6a8fc731090596f5e130868e9a8",
+      "spawn_key": [
+        25
+      ]
+    },
+    {
+      "path_id": 26,
+      "split": "dev",
+      "file": "dev_paths/path_26.npz",
+      "sha256": "34fa0a91e35971b0bb99fc2ef9e94eef75caa4ca05645d56f3fd04a3441a3457",
+      "spawn_key": [
+        26
+      ]
+    },
+    {
+      "path_id": 27,
+      "split": "dev",
+      "file": "dev_paths/path_27.npz",
+      "sha256": "5ab370b1939e23c5eebdd8a7ef99025c5b87a21a380da1815f196b34c4d83f35",
+      "spawn_key": [
+        27
+      ]
+    },
+    {
+      "path_id": 28,
+      "split": "dev",
+      "file": "dev_paths/path_28.npz",
+      "sha256": "1f983881a2d17e2199d9c74b76c7c8e7eb7290b4daded4d98b854c9d3e6b3c61",
+      "spawn_key": [
+        28
+      ]
+    },
+    {
+      "path_id": 29,
+      "split": "dev",
+      "file": "dev_paths/path_29.npz",
+      "sha256": "36102fe6e2b0a77440a027260d24eda0098531c2d5faac56dab202b385c1fb0a",
+      "spawn_key": [
+        29
+      ]
+    },
+    {
+      "path_id": 30,
+      "split": "test",
+      "file": "sealed/path_30.npz",
+      "sha256": "617633c3c22f4a847b9bb8a8974a4e0488b600a3d0b006e477d6677f46d1bd96",
+      "spawn_key": [
+        30
+      ]
+    },
+    {
+      "path_id": 31,
+      "split": "test",
+      "file": "sealed/path_31.npz",
+      "sha256": "3ee1c09913320943b966fb1b0b1edfaa178d6c28179255139d6e2d23a5dac9ed",
+      "spawn_key": [
+        31
+      ]
+    },
+    {
+      "path_id": 32,
+      "split": "test",
+      "file": "sealed/path_32.npz",
+      "sha256": "4e82337e37e90c86e3b2c96f3d5cfe5e00dce5f290a5c3a62bd4edfc06e45b47",
+      "spawn_key": [
+        32
+      ]
+    },
+    {
+      "path_id": 33,
+      "split": "test",
+      "file": "sealed/path_33.npz",
+      "sha256": "79f0dfbc0ba0e662699f579d68f7ec2f7a83644363f5ee140539a7c45669b4e6",
+      "spawn_key": [
+        33
+      ]
+    },
+    {
+      "path_id": 34,
+      "split": "test",
+      "file": "sealed/path_34.npz",
+      "sha256": "9a55bcaa1b76ca5538dc357349bbcde3f27b1c2b7b2b000f8a17c6588ec97b22",
+      "spawn_key": [
+        34
+      ]
+    },
+    {
+      "path_id": 35,
+      "split": "test",
+      "file": "sealed/path_35.npz",
+      "sha256": "184310c8b73621075f873808d01c868c7e84de62c6f41997193fd49bbf90fe42",
+      "spawn_key": [
+        35
+      ]
+    },
+    {
+      "path_id": 36,
+      "split": "test",
+      "file": "sealed/path_36.npz",
+      "sha256": "0ace4c713f1c830aad5a99d77eb91212f80b46d4f8db845102e29cdcb5dbad93",
+      "spawn_key": [
+        36
+      ]
+    },
+    {
+      "path_id": 37,
+      "split": "test",
+      "file": "sealed/path_37.npz",
+      "sha256": "bf2bfd84e6e7b7ff4b1fb7064fa462ac65960fe3b71856918b56cdbce17cc901",
+      "spawn_key": [
+        37
+      ]
+    },
+    {
+      "path_id": 38,
+      "split": "test",
+      "file": "sealed/path_38.npz",
+      "sha256": "53b29a2791afff42e6d28b9d8fa4314580922d25e0da24d1cbbc89f16632ddfe",
+      "spawn_key": [
+        38
+      ]
+    },
+    {
+      "path_id": 39,
+      "split": "test",
+      "file": "sealed/path_39.npz",
+      "sha256": "f14b4bea58c7b1204698faa68c1696a204e04cff83a85bbbf027f26380953f4a",
+      "spawn_key": [
+        39
+      ]
+    },
+    {
+      "path_id": 40,
+      "split": "test",
+      "file": "sealed/path_40.npz",
+      "sha256": "2b9f247ae52088f82d45ca21248baca191ab740d8d87289430f48313b143ce7f",
+      "spawn_key": [
+        40
+      ]
+    },
+    {
+      "path_id": 41,
+      "split": "test",
+      "file": "sealed/path_41.npz",
+      "sha256": "2cb42e662e668cc55f0de9c19add53454fac50f8e1fc912d63fa781092031ddd",
+      "spawn_key": [
+        41
+      ]
+    }
+  ],
+  "status": "complete",
+  "counts": {
+    "train": 21600,
+    "dev": 5400,
+    "test": 3600,
+    "shape": 240
+  },
+  "seconds": 299.94965081405826,
+  "sha256": {
+    "train.npz": "3e8d2cddf5fe6594ab9c1543c2d4ef96103f9d42b5766efbbdd975d48e780bfd",
+    "dev.npz": "34ceb14bedd06b62b08375e2ce25b602450780c21c35a2c0fc8cc2d6e7826cb5",
+    "sealed/test.npz": "2b1b2103017ec2a1e040ff781b33e02b5e0936376deaf548eb932c22040ce98c",
+    "sealed/shape.npz": "a31f8e5877e81c02f89037b40ebeb55680fff1332a8fab6c0f978059b334c9f6",
+    "distribution_diagnostics.csv": "f72b6a676f7e5bc0e7a4267200ab13c72f925e91261ed299388e8ad48d5d73c8",
+    "generation_attempts.csv": "8916027081152557a8e792c4cd7a13fa69b828b2dae0e3b717b0cb05cb882f89",
+    "state_source_manifest.json": "bec397e04133f0cbb35c61979cdd36a64a3360ef00d03eb2ac8a82e1d696bcce"
+  },
+  "failed_candidates": 0
+}

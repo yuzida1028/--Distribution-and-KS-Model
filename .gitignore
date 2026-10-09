@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+*.pt
+*.npz
+!data/jedc2010/initial_distribution.npz

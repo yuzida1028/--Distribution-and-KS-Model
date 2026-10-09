@@ -1,0 +1,9 @@
+{
+  "registry_sha256": "8abc0fba54a71ac6904cb1703b1e21c86594241eda12446ac34103ff50f906dc",
+  "entries_expected": 15,
+  "entries_reported": 15,
+  "entries_full_coverage": 15,
+  "issue_count": 0,
+  "final_scores_read": true,
+  "interpretation": "common exogenous group KKT and own-policy path KKT are distinct domains; CPU and GPU solve costs are separate"
+}

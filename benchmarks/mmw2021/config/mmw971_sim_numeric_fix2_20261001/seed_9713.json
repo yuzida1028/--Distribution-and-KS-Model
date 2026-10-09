@@ -1,0 +1,29 @@
+{
+  "version": "mmw_jedc_v1",
+  "steps": 100000,
+  "batch_size": 8,
+  "learning_rate": 2e-05,
+  "seeds": [
+    9711,
+    9712,
+    9713
+  ],
+  "sampling": "simulation",
+  "simulation_steps_per_update": 2,
+  "estimator": "double_draw",
+  "capacity": "match_reference_total_parameters",
+  "mass_weight": 0.5,
+  "high_asset_multiplier": 4.0,
+  "high_asset_cutoff": 20.0,
+  "gradient_clip": 1.0,
+  "checkpoint_every": 5000,
+  "print_every": 1000,
+  "development_every": 10000,
+  "development_raw_states": 60,
+  "interpretation": "MMW-style Model B adaptation; histogram continuum, population weighting and matched budget; not the original finite-agent experiment",
+  "seed": 9713,
+  "hidden": 67,
+  "share_bias": -2.6241300166822508,
+  "asset_max": 500.0,
+  "grid_points": 1401
+}

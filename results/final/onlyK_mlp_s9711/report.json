@@ -1,0 +1,366 @@
+{
+  "version": "focused_modelb_9plus3plus3_final_20261002",
+  "status": "complete",
+  "entry_id": "onlyK_mlp_s9711",
+  "method": "onlyK_mlp",
+  "seed": 9711,
+  "registry_sha256": "8abc0fba54a71ac6904cb1703b1e21c86594241eda12446ac34103ff50f906dc",
+  "policy_sha256": "5fe67370c97e4400d114884bd0cab451d5ea1f5fe82d1b23a24aa40c8ad3092c",
+  "bank_sha256": "2b1b2103017ec2a1e040ff781b33e02b5e0936376deaf548eb932c22040ce98c",
+  "shape_sha256": "a31f8e5877e81c02f89037b40ebeb55680fff1332a8fab6c0f978059b334c9f6",
+  "expected_states": 3600,
+  "scored_states": 3600,
+  "expected_shape_pairs": 120,
+  "scored_shape_pairs": 120,
+  "expected_paths": 12,
+  "complete_paths": 12,
+  "failure_count": 0,
+  "groups": [
+    {
+      "group_id": 30,
+      "n": 300,
+      "KKT": 0.002413309665753185,
+      "P90": 0.003610984484354655,
+      "P99": 0.004332546989123026,
+      "max_populated_KKT": 0.015724743604660033
+    },
+    {
+      "group_id": 31,
+      "n": 300,
+      "KKT": 0.0023743284218300676,
+      "P90": 0.0035384504000345865,
+      "P99": 0.004236071507136027,
+      "max_populated_KKT": 0.01589374820391337
+    },
+    {
+      "group_id": 32,
+      "n": 300,
+      "KKT": 0.0024261329552651084,
+      "P90": 0.003676956295967102,
+      "P99": 0.004435581962267557,
+      "max_populated_KKT": 0.017548558910687764
+    },
+    {
+      "group_id": 33,
+      "n": 300,
+      "KKT": 0.0023358371532753394,
+      "P90": 0.00349662184715271,
+      "P99": 0.004214608470598857,
+      "max_populated_KKT": 0.015171059966087341
+    },
+    {
+      "group_id": 34,
+      "n": 300,
+      "KKT": 0.0023660506984833594,
+      "P90": 0.003553545276323954,
+      "P99": 0.004252927303314209,
+      "max_populated_KKT": 0.016642456253369648
+    },
+    {
+      "group_id": 35,
+      "n": 300,
+      "KKT": 0.0023055417225700753,
+      "P90": 0.003437977433204651,
+      "P99": 0.004133234024047852,
+      "max_populated_KKT": 0.013863555391629537
+    },
+    {
+      "group_id": 36,
+      "n": 300,
+      "KKT": 0.0023335638175684945,
+      "P90": 0.003464103738466899,
+      "P99": 0.004124798973401387,
+      "max_populated_KKT": 0.015576841831207276
+    },
+    {
+      "group_id": 37,
+      "n": 300,
+      "KKT": 0.0023053836673869073,
+      "P90": 0.003535802960395813,
+      "P99": 0.00428682287534078,
+      "max_populated_KKT": 0.016375857988993325
+    },
+    {
+      "group_id": 38,
+      "n": 300,
+      "KKT": 0.0024729310466863603,
+      "P90": 0.0036485485235850015,
+      "P99": 0.004354323744773864,
+      "max_populated_KKT": 0.015421932538350423
+    },
+    {
+      "group_id": 39,
+      "n": 300,
+      "KKT": 0.0022145059686782555,
+      "P90": 0.0033696601788202924,
+      "P99": 0.004064674973487854,
+      "max_populated_KKT": 0.013910461862881978
+    },
+    {
+      "group_id": 40,
+      "n": 300,
+      "KKT": 0.0024304599624224133,
+      "P90": 0.0035748650630315145,
+      "P99": 0.004258560339609782,
+      "max_populated_KKT": 0.014679905374844869
+    },
+    {
+      "group_id": 41,
+      "n": 300,
+      "KKT": 0.002411849397396783,
+      "P90": 0.0036784809827804564,
+      "P99": 0.00442594051361084,
+      "max_populated_KKT": 0.015403143167495727
+    }
+  ],
+  "dynamic_paths": [
+    {
+      "path_id": 30,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.02670055970422291,
+      "P99": 0.03702983433008194,
+      "K_final": 283.50080373706874
+    },
+    {
+      "path_id": 30,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.02771808265369157,
+      "P99": 0.03841590535640717,
+      "K_final": 283.50080373706874
+    },
+    {
+      "path_id": 31,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.02666236594759936,
+      "P99": 0.037601514637470246,
+      "K_final": 270.3811103604343
+    },
+    {
+      "path_id": 31,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.02771359340141568,
+      "P99": 0.03848483445247014,
+      "K_final": 270.3811103604343
+    },
+    {
+      "path_id": 32,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.026643954370899683,
+      "P99": 0.0372178430557251,
+      "K_final": 276.0054141548627
+    },
+    {
+      "path_id": 32,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.027682919891217773,
+      "P99": 0.03872848927974701,
+      "K_final": 276.0054141548627
+    },
+    {
+      "path_id": 33,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.026678287445857044,
+      "P99": 0.036893667578697206,
+      "K_final": 277.0578726400819
+    },
+    {
+      "path_id": 33,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.027676079771672434,
+      "P99": 0.03880666548013687,
+      "K_final": 277.0578726400819
+    },
+    {
+      "path_id": 34,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.026657431869094993,
+      "P99": 0.03750421833992004,
+      "K_final": 280.23922105692844
+    },
+    {
+      "path_id": 34,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.02769154501223512,
+      "P99": 0.038642970005671184,
+      "K_final": 280.23922105692844
+    },
+    {
+      "path_id": 35,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.02672924923300541,
+      "P99": 0.03737401312589645,
+      "K_final": 282.7488723036251
+    },
+    {
+      "path_id": 35,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.02771058427566371,
+      "P99": 0.03849569290876389,
+      "K_final": 282.7488723036251
+    },
+    {
+      "path_id": 36,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.026712385915497384,
+      "P99": 0.037368385672569275,
+      "K_final": 287.12195276081115
+    },
+    {
+      "path_id": 36,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.027690986085382594,
+      "P99": 0.03863056614001592,
+      "K_final": 287.12195276081115
+    },
+    {
+      "path_id": 37,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.026632079020314406,
+      "P99": 0.0373525048494339,
+      "K_final": 285.40511614669686
+    },
+    {
+      "path_id": 37,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.027703522683229294,
+      "P99": 0.03859847718477249,
+      "K_final": 285.40511614669686
+    },
+    {
+      "path_id": 38,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.026580462732939177,
+      "P99": 0.037259913086891173,
+      "K_final": 281.40299309482117
+    },
+    {
+      "path_id": 38,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.027717682396537695,
+      "P99": 0.03843698275089264,
+      "K_final": 281.40299309482117
+    },
+    {
+      "path_id": 39,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.02665103236622979,
+      "P99": 0.03721819943189621,
+      "K_final": 278.85448959369575
+    },
+    {
+      "path_id": 39,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.027696849824318092,
+      "P99": 0.03860090208053589,
+      "K_final": 278.85448959369575
+    },
+    {
+      "path_id": 40,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.026740195774928473,
+      "P99": 0.03719651085138321,
+      "K_final": 275.0757188110308
+    },
+    {
+      "path_id": 40,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.027687303565147554,
+      "P99": 0.03871687978506088,
+      "K_final": 275.0757188110308
+    },
+    {
+      "path_id": 41,
+      "phase": "transition",
+      "failed": false,
+      "dates": 1000,
+      "expected_dates": 1000,
+      "KKT": 0.026661254852059293,
+      "P99": 0.036968305230140684,
+      "K_final": 279.2201489891498
+    },
+    {
+      "path_id": 41,
+      "phase": "post_burn",
+      "failed": false,
+      "dates": 3000,
+      "expected_dates": 3000,
+      "KKT": 0.027718638774108954,
+      "P99": 0.038525849342346194,
+      "K_final": 279.2201489891498
+    }
+  ],
+  "seconds": 1662.5304387309588,
+  "peak_allocated_bytes": 24131584,
+  "peak_reserved_bytes": 44040192,
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "torch": "2.12.1+cu130",
+  "python": "3.12.13",
+  "final_data_read": true,
+  "interpretation": "common exogenous states and each policy own dynamic states reported separately"
+}

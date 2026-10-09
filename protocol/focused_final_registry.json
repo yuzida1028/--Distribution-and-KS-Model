@@ -1,0 +1,474 @@
+{
+  "version": "focused_modelb_9plus3plus3_final_20261002",
+  "created_utc": "2026-10-02T14:45:40.054736+00:00",
+  "final_scores_read_at_creation": false,
+  "plan_path": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/experiment_manifest.json",
+  "plan_sha256": "261ae6d6290bac519f3181821422fca1e3638a38b0df0bb6ddfb141afd1f5ada",
+  "data_dir": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1",
+  "split_sha256": "a317a293bb16f0955678b866b08e8174edfd7b10f67c983e1b38824e7a102cae",
+  "sealed_sha256": {
+    "sealed/test.npz": "2b1b2103017ec2a1e040ff781b33e02b5e0936376deaf548eb932c22040ce98c",
+    "sealed/shape.npz": "a31f8e5877e81c02f89037b40ebeb55680fff1332a8fab6c0f978059b334c9f6"
+  },
+  "sealed_paths": [
+    {
+      "path_id": 30,
+      "split": "test",
+      "file": "sealed/path_30.npz",
+      "sha256": "617633c3c22f4a847b9bb8a8974a4e0488b600a3d0b006e477d6677f46d1bd96",
+      "spawn_key": [
+        30
+      ]
+    },
+    {
+      "path_id": 31,
+      "split": "test",
+      "file": "sealed/path_31.npz",
+      "sha256": "3ee1c09913320943b966fb1b0b1edfaa178d6c28179255139d6e2d23a5dac9ed",
+      "spawn_key": [
+        31
+      ]
+    },
+    {
+      "path_id": 32,
+      "split": "test",
+      "file": "sealed/path_32.npz",
+      "sha256": "4e82337e37e90c86e3b2c96f3d5cfe5e00dce5f290a5c3a62bd4edfc06e45b47",
+      "spawn_key": [
+        32
+      ]
+    },
+    {
+      "path_id": 33,
+      "split": "test",
+      "file": "sealed/path_33.npz",
+      "sha256": "79f0dfbc0ba0e662699f579d68f7ec2f7a83644363f5ee140539a7c45669b4e6",
+      "spawn_key": [
+        33
+      ]
+    },
+    {
+      "path_id": 34,
+      "split": "test",
+      "file": "sealed/path_34.npz",
+      "sha256": "9a55bcaa1b76ca5538dc357349bbcde3f27b1c2b7b2b000f8a17c6588ec97b22",
+      "spawn_key": [
+        34
+      ]
+    },
+    {
+      "path_id": 35,
+      "split": "test",
+      "file": "sealed/path_35.npz",
+      "sha256": "184310c8b73621075f873808d01c868c7e84de62c6f41997193fd49bbf90fe42",
+      "spawn_key": [
+        35
+      ]
+    },
+    {
+      "path_id": 36,
+      "split": "test",
+      "file": "sealed/path_36.npz",
+      "sha256": "0ace4c713f1c830aad5a99d77eb91212f80b46d4f8db845102e29cdcb5dbad93",
+      "spawn_key": [
+        36
+      ]
+    },
+    {
+      "path_id": 37,
+      "split": "test",
+      "file": "sealed/path_37.npz",
+      "sha256": "bf2bfd84e6e7b7ff4b1fb7064fa462ac65960fe3b71856918b56cdbce17cc901",
+      "spawn_key": [
+        37
+      ]
+    },
+    {
+      "path_id": 38,
+      "split": "test",
+      "file": "sealed/path_38.npz",
+      "sha256": "53b29a2791afff42e6d28b9d8fa4314580922d25e0da24d1cbbc89f16632ddfe",
+      "spawn_key": [
+        38
+      ]
+    },
+    {
+      "path_id": 39,
+      "split": "test",
+      "file": "sealed/path_39.npz",
+      "sha256": "f14b4bea58c7b1204698faa68c1696a204e04cff83a85bbbf027f26380953f4a",
+      "spawn_key": [
+        39
+      ]
+    },
+    {
+      "path_id": 40,
+      "split": "test",
+      "file": "sealed/path_40.npz",
+      "sha256": "2b9f247ae52088f82d45ca21248baca191ab740d8d87289430f48313b143ce7f",
+      "spawn_key": [
+        40
+      ]
+    },
+    {
+      "path_id": 41,
+      "split": "test",
+      "file": "sealed/path_41.npz",
+      "sha256": "2cb42e662e668cc55f0de9c19add53454fac50f8e1fc912d63fa781092031ddd",
+      "spawn_key": [
+        41
+      ]
+    }
+  ],
+  "script_sha256": "f0392de964459526a4e902527ccecc77a9b87c43ca2a2692fe7dd445dcea1d7d",
+  "mmv_root": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace",
+  "mmw_root": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001",
+  "mmv_binding_sha256": "832f6b95793f592001227bde69eb12a5fc21ef5207019553af50de5ead6a2246",
+  "mmw_binding_sha256": "861e04fe482636128b9b240282b378ae7ec2464487db01bdcfccb29ce8a0a295",
+  "protocol": {
+    "version": "focused_modelb_9plus3plus3_final_20261002",
+    "main_neural_seeds": [
+      9711,
+      9712,
+      9713
+    ],
+    "main_neural_tag": "mu971_main9_20260929_fix1",
+    "mmv_tag": "mmv971_matched_review_20260930",
+    "mmw_tag": "mmw971_sim_numeric_fix2_20261001",
+    "grid": "native500",
+    "common": "sealed raw original states, 12 groups x 300 parents; shared actual-next-mu Euler/KKT",
+    "shape": "sealed 120 fixed-discrete-K pairs, both endpoint KKT and mass-weighted saving response",
+    "dynamics": "12 own-policy 4000-date paths, first 1000 transition then 3000 post-burn",
+    "strict_failure": "nonfinite/invalid metrics, mass or employment error >1e-4, either price floor, policy domain exit",
+    "partial": "retain every failed state/path and report coverage; successful-only mean is conditional",
+    "cost": "CPU MMV solve versus GPU neural training separately; final evaluator GPU time per policy",
+    "no_test_selection": true,
+    "no_extra_training": true
+  },
+  "runs": [
+    {
+      "id": "fullmu_deeponet_s9711",
+      "method": "fullmu_deeponet",
+      "seed": 9711,
+      "family": "neural",
+      "run_dir": "/root/rivermind-data/mu_functions_v2_main9_20260929/runs/deeponet_jedc_mu_functions_v2_main_fullmu_deeponet_s9711_mu971_main9_20260929_fix1",
+      "config_path": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_deeponet_s9711.json",
+      "config_sha256": "42d4f78ecce8562112e6b03bae77c792f0845b0e1befb8a969a703e595a3a781",
+      "policy_sha256": "5e892b5fee846fc5451c9702c61be2dc40caebeb3e783dc58bc453337fa42250",
+      "artifact_sha256": {
+        "policy.pt": "5e892b5fee846fc5451c9702c61be2dc40caebeb3e783dc58bc453337fa42250",
+        "checkpoint.pt": "5fa6a51d43d9e417ea56eaee24ad66ce039abd21e9023827a7409e4b696154a0",
+        "history.csv": "6b0ce28ee1b211e12f31786bcc538efd168707887c7fe5520708abe1a2815dd4",
+        "report.json": "102dbd304912cc11ed500386de726bb1f2d193abb3f762788de96eef73b315d7",
+        "manifest.json": "6136224818024d7b04f7fd1b476c2868308e5839b7b46c872fc37e7538aee1b3",
+        "evaluation_v2_dev_native/report.json": "9047a9043a069dbbe472df4fb21491a6b891dfcea5e3581d2d27c70b43b87dad",
+        "evaluation_v2_dev_native/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "evaluation_v2_dev_own_dynamic_focus1/report.json": "af4f3955be42e35b84af307b05a3ac92e7df53576e6faf81981c4901f15e7646",
+        "evaluation_v2_dev_own_dynamic_focus1/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "fullmu_deeponet_s9712",
+      "method": "fullmu_deeponet",
+      "seed": 9712,
+      "family": "neural",
+      "run_dir": "/root/rivermind-data/mu_functions_v2_main9_20260929/runs/deeponet_jedc_mu_functions_v2_main_fullmu_deeponet_s9712_mu971_main9_20260929_fix1",
+      "config_path": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_deeponet_s9712.json",
+      "config_sha256": "d71ad67a56d66b021b136ac73eca2bff26587dd29c69996027f069d20fd4cf06",
+      "policy_sha256": "1fff6484620522a738916e62b26525a3d81fcb25b5f285de300127c06deb7030",
+      "artifact_sha256": {
+        "policy.pt": "1fff6484620522a738916e62b26525a3d81fcb25b5f285de300127c06deb7030",
+        "checkpoint.pt": "c2783e96b32220fc281369056c7f65c45325de53e15475f922c77ef8f760278e",
+        "history.csv": "39de907fb2385bc6e84ea28b124fbf1589a2b3c088d78afe97ba07dcd36aa8a7",
+        "report.json": "80cdba14087224a8476cbed63777b2c635a99722fe5590659dec654a35be548e",
+        "manifest.json": "60b5ab25983c5d954e67bb395092a047550054a47a1fbdea92b7557ab058cc24",
+        "evaluation_v2_dev_native/report.json": "ec11f2861ba53b94230807086607e6ba6b30f4f8475fc85d0ee212c63c3081a6",
+        "evaluation_v2_dev_native/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "evaluation_v2_dev_own_dynamic_focus1/report.json": "e3d9c2e970c4365a5d02dcb254bd2a560c6ccf59c4baec32dc72ec76189c1045",
+        "evaluation_v2_dev_own_dynamic_focus1/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "fullmu_deeponet_s9713",
+      "method": "fullmu_deeponet",
+      "seed": 9713,
+      "family": "neural",
+      "run_dir": "/root/rivermind-data/mu_functions_v2_main9_20260929/runs/deeponet_jedc_mu_functions_v2_main_fullmu_deeponet_s9713_mu971_main9_20260929_fix1",
+      "config_path": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_deeponet_s9713.json",
+      "config_sha256": "0c906f16bf12afac3f6d8dbee6753d1dc7a41d3686f55477579ebf67c8154797",
+      "policy_sha256": "d991e8307b22fdf7ba4c70f6a04a41fdafe256fc16fc92659993aa1f3db1b197",
+      "artifact_sha256": {
+        "policy.pt": "d991e8307b22fdf7ba4c70f6a04a41fdafe256fc16fc92659993aa1f3db1b197",
+        "checkpoint.pt": "071aec3498bda192e1a732a79ff42ea9e2b6c01835c35fa422bb9867cc3d4662",
+        "history.csv": "63ad2067ba22b2fb853e064a840e53f9246bf0bc9081c8ff9c206f093b0accbd",
+        "report.json": "f2cf1f07fa7bc4cc4e50a916d92e8a5b17ea0a6c21bfa7e5f709e55c7bec6c02",
+        "manifest.json": "f2a2f84220d08a51d5ec1387dbfff817ca3308bed6d1ecf9f252b79663abb1ba",
+        "evaluation_v2_dev_native/report.json": "03a175faae03ce035beabc47da8293e553e57c91ceb85825b6f7c82f32ac46c3",
+        "evaluation_v2_dev_native/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "evaluation_v2_dev_own_dynamic_focus1/report.json": "e06ad1fc866d1ca922da83b0223dc137bac3092866f6a49cca260f6c4c70153b",
+        "evaluation_v2_dev_own_dynamic_focus1/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "fullmu_mlp_s9711",
+      "method": "fullmu_mlp",
+      "seed": 9711,
+      "family": "neural",
+      "run_dir": "/root/rivermind-data/mu_functions_v2_main9_20260929/runs/mlp_jedc_mu_functions_v2_main_fullmu_mlp_s9711_mu971_main9_20260929_fix1",
+      "config_path": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_mlp_s9711.json",
+      "config_sha256": "d1c770167fa29f28ff0cd8f06ed4daf766241c88f562b7ba8a70929d43d6e46a",
+      "policy_sha256": "5e2e10290a362fa1da3f2427ac91eef5893acb8a6ea380198911194b46e5354e",
+      "artifact_sha256": {
+        "policy.pt": "5e2e10290a362fa1da3f2427ac91eef5893acb8a6ea380198911194b46e5354e",
+        "checkpoint.pt": "0b7deedbcb8635afc03862a42cb215d2a464aea31a0fc74a4785ce59594be574",
+        "history.csv": "d3f6cbe5ed9a8c4e23b28de972989874fefb1f16c5e58014b1c115c04fb0c215",
+        "report.json": "533edcb59de3f2818bdd24c8dad2d4fc25038599ece5843479417a40b03f39e6",
+        "manifest.json": "0a4f3a6e1364d0722c510b0f0597b2d2db94e02e61bca6311bab797d2bb52a48",
+        "evaluation_v2_dev_native/report.json": "e1b1743ea81cb0c614fdd2dafa5e4c71a93a9b4473b290d65f8b992a4b5b4d27",
+        "evaluation_v2_dev_native/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "evaluation_v2_dev_own_dynamic_focus1/report.json": "dd0066db326cce6558ae9a202a69a8fb3a56d47f318e18d7041434f82689d0f5",
+        "evaluation_v2_dev_own_dynamic_focus1/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "fullmu_mlp_s9712",
+      "method": "fullmu_mlp",
+      "seed": 9712,
+      "family": "neural",
+      "run_dir": "/root/rivermind-data/mu_functions_v2_main9_20260929/runs/mlp_jedc_mu_functions_v2_main_fullmu_mlp_s9712_mu971_main9_20260929_fix1",
+      "config_path": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_mlp_s9712.json",
+      "config_sha256": "f9fddf11444bd99c1127868a4c3b5b314176daa2787269a54c078117b3d882bc",
+      "policy_sha256": "016847d831e57815c3654863784206426a725b7b68f91e17293cf43b9c1b599d",
+      "artifact_sha256": {
+        "policy.pt": "016847d831e57815c3654863784206426a725b7b68f91e17293cf43b9c1b599d",
+        "checkpoint.pt": "96ae4c8f7a1d5d2256ad44d1daeeddba3e61053bd5907890c2aaaaf30b348c1d",
+        "history.csv": "902cbfc83a9cf850d7352841e22ef4a6bf55064335631278f7bf0b184716cf25",
+        "report.json": "a3e39b0b15481d8b6c6270f90b9dbb55aa01571d68a6e6ce411470447a334d9b",
+        "manifest.json": "2cdf9059c7cc2474a0a3217387ccc8fe005b3843a959a281ba4271388c9a4d7f",
+        "evaluation_v2_dev_native/report.json": "8177781720702a9316b7bdb48875c6685e16f9117cd1051c646b06bf3ec0fecb",
+        "evaluation_v2_dev_native/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "evaluation_v2_dev_own_dynamic_focus1/report.json": "6f6fcaa6cf2f2bff1405ba5617251696850ba75000a7a992ce6045d6ceaf0923",
+        "evaluation_v2_dev_own_dynamic_focus1/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "fullmu_mlp_s9713",
+      "method": "fullmu_mlp",
+      "seed": 9713,
+      "family": "neural",
+      "run_dir": "/root/rivermind-data/mu_functions_v2_main9_20260929/runs/mlp_jedc_mu_functions_v2_main_fullmu_mlp_s9713_mu971_main9_20260929_fix1",
+      "config_path": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_mlp_s9713.json",
+      "config_sha256": "c0e02f75d3a33a77bcbfeb3532e23db2bdc1f7bc65bd7cc91ab467127c661c5d",
+      "policy_sha256": "8f0d308ff9dfb637b7cb5db6e3ebcc5454e88354f64664b22dadedd2deedeb8b",
+      "artifact_sha256": {
+        "policy.pt": "8f0d308ff9dfb637b7cb5db6e3ebcc5454e88354f64664b22dadedd2deedeb8b",
+        "checkpoint.pt": "4a85f1905048f4b3d315fdec388c483ad1587e078f6cfc1b42741a92858ea18b",
+        "history.csv": "264827dfc0e52290ddbe3075d0a78292d3d51336ca3b23071c3a2103a67b0216",
+        "report.json": "01e2b5ba1629ecc1c44727f43da301b67ae1d641b18a978695f96a39d9d00ea7",
+        "manifest.json": "7bd46c2a836a517f5e48e167b35284bbde5248d982b333558437248eb27f733b",
+        "evaluation_v2_dev_native/report.json": "72db19cbdc685fe684a3866e0b6f8efc6a78a208a8e1ad3f2c19b566a1b6c47c",
+        "evaluation_v2_dev_native/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "evaluation_v2_dev_own_dynamic_focus1/report.json": "f8d3ba62e9a0a7c473f9d9fa4347d7d8244456ffe2e2d71266fb6a7b78a61efb",
+        "evaluation_v2_dev_own_dynamic_focus1/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "onlyK_mlp_s9711",
+      "method": "onlyK_mlp",
+      "seed": 9711,
+      "family": "neural",
+      "run_dir": "/root/rivermind-data/mu_functions_v2_main9_20260929/runs/mlp_jedc_mu_functions_v2_main_onlyK_mlp_s9711_mu971_main9_20260929_fix1",
+      "config_path": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_onlyK_mlp_s9711.json",
+      "config_sha256": "0f80fb192488e075d188ce9fb15971144c91b3877bec86399df9654afc5fd8ae",
+      "policy_sha256": "5fe67370c97e4400d114884bd0cab451d5ea1f5fe82d1b23a24aa40c8ad3092c",
+      "artifact_sha256": {
+        "policy.pt": "5fe67370c97e4400d114884bd0cab451d5ea1f5fe82d1b23a24aa40c8ad3092c",
+        "checkpoint.pt": "595331d9f67979b96caa6382d02c67ce4e6282d48be296bd9278a7b1d4db395c",
+        "history.csv": "12878afd5dc2437c671b65157b48353c222f2d1553e81eb27b0190e083e076e6",
+        "report.json": "7308fe9cd221b59ee09d147ae2a5e8898e953caa1240a72770d3d71beaa6f2de",
+        "manifest.json": "ae84d009e55d70ac7a69c979a00989a9c82573d36a5b2f501c7b4dff65c30213",
+        "evaluation_v2_dev_native/report.json": "55dad9e80266fd8209c6fec301883041b1c2dfd70a613d706518c3e24c390cc5",
+        "evaluation_v2_dev_native/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "evaluation_v2_dev_own_dynamic_focus1/report.json": "cd3d9f4d0aff88814379ba1597958ac4bbe4dde8486e8c84d63485ee67c8ab1d",
+        "evaluation_v2_dev_own_dynamic_focus1/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "onlyK_mlp_s9712",
+      "method": "onlyK_mlp",
+      "seed": 9712,
+      "family": "neural",
+      "run_dir": "/root/rivermind-data/mu_functions_v2_main9_20260929/runs/mlp_jedc_mu_functions_v2_main_onlyK_mlp_s9712_mu971_main9_20260929_fix1",
+      "config_path": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_onlyK_mlp_s9712.json",
+      "config_sha256": "49090f02c23bf0a8fba09687a5fe7f25f910d7486e2111870fc66130669663cf",
+      "policy_sha256": "369d730d6ff01ce3d7216a0975797875237de7aa59ebdb62a2d6882f78e3554b",
+      "artifact_sha256": {
+        "policy.pt": "369d730d6ff01ce3d7216a0975797875237de7aa59ebdb62a2d6882f78e3554b",
+        "checkpoint.pt": "ce98225ee0ddb2cd0b70578858c75ccac72bdbda56591197a8050929e6a97f78",
+        "history.csv": "36293e8189831f279dca671410513aa1e1d3a0fbce61a41530a0e5d31a9399b2",
+        "report.json": "b17a9047c6f3591d2456dccb2e311f8494dd5fc14643590b3d8c79602c9bc1bc",
+        "manifest.json": "f6fbebbfcb007684d7ccee052dc474bfc5863f6ffcc0d1f8ebf881906f7f9a04",
+        "evaluation_v2_dev_native/report.json": "88e2d7560f6f2aed927ee65f8e1fadf1c350bd5b0d6b3f020b848505b18aeb11",
+        "evaluation_v2_dev_native/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "evaluation_v2_dev_own_dynamic_focus1/report.json": "da77617d86e102ff69a77a11a1804c37873451bd39009c83eca635c97156cc6e",
+        "evaluation_v2_dev_own_dynamic_focus1/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "onlyK_mlp_s9713",
+      "method": "onlyK_mlp",
+      "seed": 9713,
+      "family": "neural",
+      "run_dir": "/root/rivermind-data/mu_functions_v2_main9_20260929/runs/mlp_jedc_mu_functions_v2_main_onlyK_mlp_s9713_mu971_main9_20260929_fix1",
+      "config_path": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_onlyK_mlp_s9713.json",
+      "config_sha256": "f924d065a2f3c7800ea3677433fe42968b01267a918ed0611edaca99926954c0",
+      "policy_sha256": "6d2fbc53669d9bf1ffa582e8b3e398b87e1f15282d21e79129360da447f9bcfe",
+      "artifact_sha256": {
+        "policy.pt": "6d2fbc53669d9bf1ffa582e8b3e398b87e1f15282d21e79129360da447f9bcfe",
+        "checkpoint.pt": "6841040332b7b1bc2dd089010ff2067373f42b5591c70140ffb17e99f8ebdeda",
+        "history.csv": "baa9b6f5ed2b808fcd7d7e420c3a275dfc72da2e15400666dca8d50410d78581",
+        "report.json": "eb1278a6c574c1e889bb73d09459efa899a769a1b7b94d77bc2e6b52c41e1920",
+        "manifest.json": "7e269008fe68e7bf8d2eaeec287f087895a83615ec2f57010801852a0cbf9c02",
+        "evaluation_v2_dev_native/report.json": "ff7f41c319c13156f9e3200dc5af14331d78902a13d50574d6e1c6dbc9698c8f",
+        "evaluation_v2_dev_native/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "evaluation_v2_dev_own_dynamic_focus1/report.json": "bf757f3c59bbf523c8452c2003691fc91d9719be30e2c4455053e3a1c426a5ff",
+        "evaluation_v2_dev_own_dynamic_focus1/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "mmv_matched_s9711",
+      "method": "mmv_matched",
+      "seed": 9711,
+      "family": "mmv",
+      "run_dir": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/runs/mmv2010_queue_mmv971_matched_review_20260930/matched_s9711",
+      "config_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/config/mmv2010_mmv971_matched_review_20260930/matched_s9711.json",
+      "config_sha256": "daf7050e88bf17e53b7a8515a91e6e2f073f9d3d5dc2be47d0a96cf8e3112e0c",
+      "binding_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/config/mmv2010_mmv971_matched_review_20260930/binding.json",
+      "binding_sha256": "832f6b95793f592001227bde69eb12a5fc21ef5207019553af50de5ead6a2246",
+      "policy_sha256": "a1c9cb302a04a246649e5e1e08566cac7dbbac69f03e7c28bf8c25e0b8ebe672",
+      "artifact_sha256": {
+        "policy_table.npz": "a1c9cb302a04a246649e5e1e08566cac7dbbac69f03e7c28bf8c25e0b8ebe672",
+        "report.json": "10982fe6caca049a3bac679377e16643a5bb89d944f80fdc62708ad8b01f1b3d",
+        "manifest.json": "6918b9d68f04cd235b7b7de9af6ccb15419b7f9141440c61f3c03ccaf2de37e1",
+        "config.json": "daf7050e88bf17e53b7a8515a91e6e2f073f9d3d5dc2be47d0a96cf8e3112e0c",
+        "development_static/report.json": "7c31d003d2871e63c5e788c49142b16392863df57909c58003f34274266b623a",
+        "development_static/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "development_with_dynamics/report.json": "35774a16c06293df5e252073ea4dd34d40ac262846dbd9142722a1d638548fc2",
+        "development_with_dynamics/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "mmv_matched_s9712",
+      "method": "mmv_matched",
+      "seed": 9712,
+      "family": "mmv",
+      "run_dir": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/runs/mmv2010_queue_mmv971_matched_review_20260930/matched_s9712",
+      "config_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/config/mmv2010_mmv971_matched_review_20260930/matched_s9712.json",
+      "config_sha256": "eeba33c4388150a79fff72e61a5fb67e9479548308bb9069f45a5f513b31f3db",
+      "binding_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/config/mmv2010_mmv971_matched_review_20260930/binding.json",
+      "binding_sha256": "832f6b95793f592001227bde69eb12a5fc21ef5207019553af50de5ead6a2246",
+      "policy_sha256": "eb1a2f79981ecfadc4e49e770884b9c3bd8da8567a5f815cb82eb8b1ac80cdec",
+      "artifact_sha256": {
+        "policy_table.npz": "eb1a2f79981ecfadc4e49e770884b9c3bd8da8567a5f815cb82eb8b1ac80cdec",
+        "report.json": "dab93538cffe07d227990b2343d047617a89a5506640ba71046e3ffe3f8e55b5",
+        "manifest.json": "2ef8d73083b0069ccee54bf79c7c14d4c0de809bf1b1160e3e74a04fb9a44d2d",
+        "config.json": "eeba33c4388150a79fff72e61a5fb67e9479548308bb9069f45a5f513b31f3db",
+        "development_static/report.json": "adbf578a2f55927f154c9a42e3de05634201093b3fcc2cfb7e5b6343db187565",
+        "development_static/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "development_with_dynamics/report.json": "3838342c0ac8a9a232d721e9d263bdef99751902e7c3a0740130e4c5e09a3935",
+        "development_with_dynamics/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "mmv_matched_s9713",
+      "method": "mmv_matched",
+      "seed": 9713,
+      "family": "mmv",
+      "run_dir": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/runs/mmv2010_queue_mmv971_matched_review_20260930/matched_s9713",
+      "config_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/config/mmv2010_mmv971_matched_review_20260930/matched_s9713.json",
+      "config_sha256": "936a3efce0cf570c082bfdef388bc4f05e40796c9557cd80e8fdc5d3838d148c",
+      "binding_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMV2010/workspace/config/mmv2010_mmv971_matched_review_20260930/binding.json",
+      "binding_sha256": "832f6b95793f592001227bde69eb12a5fc21ef5207019553af50de5ead6a2246",
+      "policy_sha256": "4fe6b68197c11a8d7ad38e5148340c39f0b8f5fc739a422e73730527871bbc83",
+      "artifact_sha256": {
+        "policy_table.npz": "4fe6b68197c11a8d7ad38e5148340c39f0b8f5fc739a422e73730527871bbc83",
+        "report.json": "01c660fc1d203489d0462355f3210df8d2dfb5a621e596aa52f0b3eda0467bbc",
+        "manifest.json": "7cb70b73071a90b86db395f19cc68959ff49aac3fabb8390511abc2f674e0eef",
+        "config.json": "936a3efce0cf570c082bfdef388bc4f05e40796c9557cd80e8fdc5d3838d148c",
+        "development_static/report.json": "701e958176fc2d7bd302276acc9c97a54a33d151153587762a91a2946ec2583f",
+        "development_static/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "development_with_dynamics/report.json": "fa7d041eebd25d6a92287fa196bd858807171382c15e690600eca07def25045b",
+        "development_with_dynamics/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "mmw_s9711",
+      "method": "mmw",
+      "seed": 9711,
+      "family": "mmw",
+      "run_dir": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/runs/mmw971_sim_numeric_fix2_20261001/seed_9711",
+      "config_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/config/mmw971_sim_numeric_fix2_20261001/seed_9711.json",
+      "config_sha256": "4b4c0134bac15fec4134cd12f56ec7fadd6fbe7a65ead13cfb266b9522f5885a",
+      "binding_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/config/mmw971_sim_numeric_fix2_20261001/binding.json",
+      "binding_sha256": "861e04fe482636128b9b240282b378ae7ec2464487db01bdcfccb29ce8a0a295",
+      "policy_sha256": "f57450213a264e5635dad6f36bb502c40dd95445a1c48330401724d4a9824b79",
+      "artifact_sha256": {
+        "policy.pt": "f57450213a264e5635dad6f36bb502c40dd95445a1c48330401724d4a9824b79",
+        "report.json": "b4dbc1be3607d914466288c05f9134dbf2c8980ea5b6d2f5979adbc8a0d4d0ce",
+        "manifest.json": "1b43c077b05799205b42229205dce823f76b1135bee870df1ebbafd6d3c28437",
+        "config.json": "4b4c0134bac15fec4134cd12f56ec7fadd6fbe7a65ead13cfb266b9522f5885a",
+        "history.csv": "f951f8d227ed6154eb63124cefc0f25e53ccfeddd4995b3c1335a0e79a1a0dd8",
+        "development_static/report.json": "57e31cb8538ea7be24a88a4379cfd17ce20c000d7ac0b55c509a8d96cd1fda52",
+        "development_static/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "development_with_dynamics/report.json": "dd0957b9d9b42a04fbdd476aa398c5b7cd48745ff907b8c6251668e8f547db94",
+        "development_with_dynamics/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "mmw_s9712",
+      "method": "mmw",
+      "seed": 9712,
+      "family": "mmw",
+      "run_dir": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/runs/mmw971_sim_numeric_fix2_20261001/seed_9712",
+      "config_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/config/mmw971_sim_numeric_fix2_20261001/seed_9712.json",
+      "config_sha256": "66fa953f53152e81edbf361bb78103e569befc1ae8a6e7d066ea0e0817b18176",
+      "binding_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/config/mmw971_sim_numeric_fix2_20261001/binding.json",
+      "binding_sha256": "861e04fe482636128b9b240282b378ae7ec2464487db01bdcfccb29ce8a0a295",
+      "policy_sha256": "20043eab58beef7c89d9595635fb6ea65766e23a4c85ddb593e888b9d904a322",
+      "artifact_sha256": {
+        "policy.pt": "20043eab58beef7c89d9595635fb6ea65766e23a4c85ddb593e888b9d904a322",
+        "report.json": "0b86aa8e1e2a41b5a76250cd146df38e259f2db5b68a3bc475fe62c9713fbc86",
+        "manifest.json": "7be749a9f69632f73262cc7ab17e8924432666f73a88140cdeb837a934cd2d8b",
+        "config.json": "66fa953f53152e81edbf361bb78103e569befc1ae8a6e7d066ea0e0817b18176",
+        "history.csv": "9258c9dbb1faadd316e0eeaea684ab7d6ed59cdd058687997e89e2d9a1b6cffe",
+        "development_static/report.json": "15a416c4a945d27b17275ca2f256adb296f48bab2c91810720ed4116be1e9c6a",
+        "development_static/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "development_with_dynamics/report.json": "5334fc59e29a421360c0fc606c73f9044112f7957a2f305541fe5cd070e5794d",
+        "development_with_dynamics/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "id": "mmw_s9713",
+      "method": "mmw",
+      "seed": 9713,
+      "family": "mmw",
+      "run_dir": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/runs/mmw971_sim_numeric_fix2_20261001/seed_9713",
+      "config_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/config/mmw971_sim_numeric_fix2_20261001/seed_9713.json",
+      "config_sha256": "36dedd614999ffd9cdefcee017e1cc521f210d2ed5090e48ec5cdc42387b894d",
+      "binding_path": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/config/mmw971_sim_numeric_fix2_20261001/binding.json",
+      "binding_sha256": "861e04fe482636128b9b240282b378ae7ec2464487db01bdcfccb29ce8a0a295",
+      "policy_sha256": "99a127bf4dc39fb7690a6d7140249ac25910e59575472d73281786917095f190",
+      "artifact_sha256": {
+        "policy.pt": "99a127bf4dc39fb7690a6d7140249ac25910e59575472d73281786917095f190",
+        "report.json": "8c4b8224002018daf2c68a24b08b1a278a23346b3adb5c4ac911e89f61f510e5",
+        "manifest.json": "b2ca8e1865ba200b697b0838dfe320f5ca496511e89e4ac34fc6913ef3f0ecf7",
+        "config.json": "36dedd614999ffd9cdefcee017e1cc521f210d2ed5090e48ec5cdc42387b894d",
+        "history.csv": "5349317c5a669772aa3fd4dec61c78fde67bb258c3f66238dc42f9db771915d0",
+        "development_static/report.json": "be809d0e53ccae089072e66518cc2ce3c1458959cc7c7d8a93ce1e8ff1b3e408",
+        "development_static/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "development_with_dynamics/report.json": "56ab070664ffe78ba278c8f401caa2d40b4c49f986ccf1f22990e59b81b04ace",
+        "development_with_dynamics/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": "mu_functions_v2",
+  "root_seed": 202609299710,
+  "shock_seed": 202609299720,
+  "groups": {"train": 24, "dev": 6, "test": 12},
+  "parents_per_group": 300,
+  "coefficient_sigma": 0.15,
+  "target_K_relative_range": [0.8, 1.2],
+  "density_support": [0.0, 100.0],
+  "density_quadrature_order": 8,
+  "zero_atoms": "official conditional atoms retained separately for both employment groups",
+  "perturbations": {"sameK_cdf_cap": 0.01, "localK_cdf_cap": 0.03, "localK_relative_cap": 0.02},
+  "test_shape_pairs_per_group": 10,
+  "dynamic_periods": 4000,
+  "dynamic_burn": 1000,
+  "classification": "exogenous function groups, not endogenous economic paths; no policy labels or score filtering"
+}

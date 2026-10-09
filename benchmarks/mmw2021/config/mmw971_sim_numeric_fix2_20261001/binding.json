@@ -1,0 +1,97 @@
+{
+  "reference_plan": "/root/rivermind-data/mu_functions_v2_main9_20260929/config/mu_functions_v2_mu971_main9_20260929_fix1/experiment_manifest.json",
+  "reference_plan_sha256": "261ae6d6290bac519f3181821422fca1e3638a38b0df0bb6ddfb141afd1f5ada",
+  "source_reference_config": {
+    "phase": "main",
+    "label": "fullmu_deeponet",
+    "kind": "deeponet",
+    "seed": 9711,
+    "config": "config/mu_functions_v2_mu971_main9_20260929_fix1/jedc_mu_functions_v2_main_fullmu_deeponet_s9711.json",
+    "sha256": "42d4f78ecce8562112e6b03bae77c792f0845b0e1befb8a969a703e595a3a781",
+    "parameters": 192257
+  },
+  "reference_config": {
+    "status": "frozen_mu_functions_v2_equation_only",
+    "calibration_file": "data/jedc2010_calibration.json",
+    "train_data_file": "data/mu_functions_v2_mu971_main9_20260929_fix1/train.npz",
+    "valid_data_file": "data/mu_functions_v2_mu971_main9_20260929_fix1/dev.npz",
+    "seed": 9711,
+    "asset_points": 1401,
+    "asset_max": 500.0,
+    "hidden": 64,
+    "mlp_hidden": 64,
+    "basis": 32,
+    "policy_mode": "consumption_softplus",
+    "macro_features": "capital",
+    "transport": "atom_uniform_intervals_v1",
+    "steps": 100000,
+    "batch_size": 8,
+    "learning_rate": 2e-05,
+    "checkpoint_every": 5000,
+    "mass_weight": 0.5,
+    "high_asset_cutoff": 20.0,
+    "high_asset_multiplier": 4.0,
+    "device": "auto",
+    "n_train": 21600,
+    "n_valid": 5400,
+    "experiment_phase": "main"
+  },
+  "input_paths": {
+    "train": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/train.npz",
+    "dev": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/dev.npz",
+    "calibration": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/jedc2010_calibration.json",
+    "initial": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/jedc2010/initial_distribution.npz",
+    "split": "/root/rivermind-data/mu_functions_v2_main9_20260929/data/mu_functions_v2_mu971_main9_20260929_fix1/split_manifest.json"
+  },
+  "input_sha256": {
+    "train": "3e8d2cddf5fe6594ab9c1543c2d4ef96103f9d42b5766efbbdd975d48e780bfd",
+    "dev": "34ceb14bedd06b62b08375e2ce25b602450780c21c35a2c0fc8cc2d6e7826cb5",
+    "calibration": "0953a47f9844be1f719ab2e6f40fd7467b2dbe4f1470be2baf15ffb693ac7498",
+    "initial": "10cf5478ad94b75cccd542712f679870fb9276a61cc839e2b41c4143b4134fd5",
+    "split": "a317a293bb16f0955678b866b08e8174edfd7b10f67c983e1b38824e7a102cae"
+  },
+  "source_sha256": {
+    "src/mmw_jedc.py": "4f87229b4a2e92c0f808c880624370f929d699e364668e96c083573ff133ee9e",
+    "src/train_mmw_jedc.py": "3b0ff7e9fe40ade144f7cd72a485654140921fab3c41a804d7970fa437b97fdf",
+    "src/ks_model.py": "438110b4815652eba8b750854cd56d9a33bebbd093202ceece9049bdd8a12942",
+    "src/jedc_distribution_v1.py": "90dacb966e184261fb999ae2eed343e0d4bf3894e1e2885b3101b5942d3c69f4",
+    "src/mu_evaluation_v2.py": "c3e47050d4700cecc1ba9dc0b6452d79915e3dd7bdd6550d4fbd64fd632b7ec7",
+    "scripts/evaluate_mmw_jedc.py": "df369018714035a669a8235c3da11e9dfd2c3118582a7b007eafa0a2af7094a9",
+    "server/run_mmw_jedc.py": "976708e3aa7f3ee728c913f0400b3b1d0142e81801fec6d471d219209cffc872",
+    "config/mmw_jedc_template.json": "36e2ee9a52bf4d47c20bb360c518c9298330ee69712a2e237b96f1e019f68b24",
+    "tests/test_mmw_jedc.py": "4742235e75f5c68839f74408581f924f5b714cc8da778f35f1c49b0b2c72dc6f"
+  },
+  "development_protocol": {
+    "split": "dev",
+    "common": "all raw + perturbations, grouped by generation group",
+    "sameK": true,
+    "dynamics": "six frozen dev paths, 4000 dates; first1000 separate",
+    "final_access": false
+  },
+  "hidden": 67,
+  "parameters": 192828,
+  "reference_parameters": 192257,
+  "relative_parameter_difference": 0.002969982887489142,
+  "asset_max": 500.0,
+  "share_bias": -2.6241300166822508,
+  "grid_points": 1401,
+  "configs": [
+    {
+      "path": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/config/mmw971_sim_numeric_fix2_20261001/seed_9711.json",
+      "sha256": "4b4c0134bac15fec4134cd12f56ec7fadd6fbe7a65ead13cfb266b9522f5885a",
+      "seed": 9711
+    },
+    {
+      "path": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/config/mmw971_sim_numeric_fix2_20261001/seed_9712.json",
+      "sha256": "66fa953f53152e81edbf361bb78103e569befc1ae8a6e7d066ea0e0817b18176",
+      "seed": 9712
+    },
+    {
+      "path": "/root/rivermind-data/maliar_benchmarks_20260930/MMW2021/workspace_numeric_fix2_20261001/config/mmw971_sim_numeric_fix2_20261001/seed_9713.json",
+      "sha256": "36dedd614999ffd9cdefcee017e1cc521f210d2ed5090e48ec5cdc42387b894d",
+      "seed": 9713
+    }
+  ],
+  "created_utc": "2026-10-01T13:14:38.037962+00:00",
+  "status": "frozen_no_final_scores"
+}

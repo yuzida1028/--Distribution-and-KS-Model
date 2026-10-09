@@ -1,0 +1,69 @@
+{
+  "version": "mu_functions_v2",
+  "frozen_before_final_scores": true,
+  "primary": "mass-weighted KKT abs(gap) at saving>1e-7; max(-gap,0) at lower bound; raw common test functions only",
+  "secondary": [
+    "weighted median/P90/P99 and populated maximum",
+    "employment x zero/(0,5]/(5,20]/>20 groups",
+    "positive consumption, lower/upper saving constraints",
+    "mass/employment conservation",
+    "midpoint vs affine-interval capital push",
+    "tax/UI and resource budget checks labelled algebraic sanity checks"
+  ],
+  "shape": "120 frozen pairs preserving K, employment margins and each atom; report both KKT and policy response, no truth labels",
+  "dynamic": {
+    "paths": 12,
+    "periods": 4000,
+    "initial": "public official initial, bad z",
+    "phases": [
+      [
+        0,
+        999
+      ],
+      [
+        1000,
+        3999
+      ]
+    ],
+    "KKT_dates": "every date",
+    "outputs": [
+      "K",
+      "Y",
+      "wage",
+      "interest",
+      "moments2..4",
+      "q10/q50/q90/q99",
+      "atoms",
+      "tail",
+      "mass/employment",
+      "KKT/P99",
+      "upper saturation",
+      "capital reprojection error",
+      "budget sanity"
+    ]
+  },
+  "robustness": {
+    "checkpoint_grids": [
+      "native",
+      "fine",
+      "upper1000"
+    ],
+    "fine_retrain_seeds": [
+      9711
+    ],
+    "adapter": "rebin evaluation mu to frozen input grid; hold network scaling and policy upper bound500 for checkpoint-only quadrature checks; positive mass above500 is an explicit adapter failure"
+  },
+  "confidence": {
+    "unit_common": "function_generation_group",
+    "unit_dynamic": "shock_path",
+    "seed_axis": "paired training seeds",
+    "draws": 2000,
+    "seed": 202609299799,
+    "three_seed_limitations": true
+  },
+  "stress": "five original shape families separately; never pooled with primary",
+  "failure_policy": "retain failed states/paths, counts and coverage; incomplete primary evaluations do not silently become successful means",
+  "no_test_selection": true,
+  "no_reference_policy_required": true,
+  "no_equilibrium_or_welfare_claim": true
+}

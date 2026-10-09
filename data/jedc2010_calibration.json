@@ -1,0 +1,17 @@
+{
+  "source": "Den Haan, Judd and Juillard JEDC computational suite, Model B, Tables 1-2",
+  "alpha": 0.36,
+  "beta": 0.99,
+  "delta": 0.025,
+  "unemployment_insurance_rate": 0.15,
+  "hours_if_employed": 1.1111111111111112,
+  "z_values": [0.99, 1.01],
+  "unemployment_rates": [0.10, 0.04],
+  "joint_state_order": ["bad_unemployed", "bad_employed", "good_unemployed", "good_employed"],
+  "joint_transition": [
+    [0.525, 0.35, 0.03125, 0.09375],
+    [0.038889, 0.836111, 0.002083, 0.122917],
+    [0.09375, 0.03125, 0.291667, 0.583333],
+    [0.009115, 0.115885, 0.024306, 0.850694]
+  ]
+}

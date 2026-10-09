@@ -1,0 +1,6 @@
+# Install a platform-compatible PyTorch build first.
+numpy
+torch
+scipy
+matplotlib
+xlrd

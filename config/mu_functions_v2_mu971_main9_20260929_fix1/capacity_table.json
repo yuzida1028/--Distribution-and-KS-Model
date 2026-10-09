@@ -1,0 +1,68 @@
+[
+  {
+    "phase": "main",
+    "label": "fullmu_deeponet",
+    "parameters": 192257,
+    "width": 64,
+    "basis": 32,
+    "grid_points": 1401,
+    "relative_capacity_difference": 0.0,
+    "macro_inputs": 2805,
+    "micro_inputs": 2
+  },
+  {
+    "phase": "main",
+    "label": "fullmu_mlp",
+    "parameters": 192760,
+    "width": 67,
+    "basis": 32,
+    "grid_points": 1401,
+    "relative_capacity_difference": 0.002616289653952782,
+    "macro_inputs": 2805,
+    "micro_inputs": 2
+  },
+  {
+    "phase": "main",
+    "label": "onlyK_mlp",
+    "parameters": 191829,
+    "width": 434,
+    "basis": 32,
+    "grid_points": 1401,
+    "relative_capacity_difference": -0.0022261868228465025,
+    "macro_inputs": 3,
+    "micro_inputs": 2
+  },
+  {
+    "phase": "fine",
+    "label": "fullmu_deeponet",
+    "parameters": 371457,
+    "width": 64,
+    "basis": 32,
+    "grid_points": 2801,
+    "relative_capacity_difference": 0.0,
+    "macro_inputs": 5605,
+    "micro_inputs": 2
+  },
+  {
+    "phase": "fine",
+    "label": "fullmu_mlp",
+    "parameters": 368876,
+    "width": 65,
+    "basis": 32,
+    "grid_points": 2801,
+    "relative_capacity_difference": -0.006948314340556242,
+    "macro_inputs": 5605,
+    "micro_inputs": 2
+  },
+  {
+    "phase": "fine",
+    "label": "onlyK_mlp",
+    "parameters": 370866,
+    "width": 605,
+    "basis": 32,
+    "grid_points": 2801,
+    "relative_capacity_difference": -0.001591032071006873,
+    "macro_inputs": 3,
+    "micro_inputs": 2
+  }
+]
